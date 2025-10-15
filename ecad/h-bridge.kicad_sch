@@ -2018,7 +2018,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:PQFN_8x8"
+		(property "Footprint" ""
 			(at 170.18 91.44 0)
 			(effects
 				(font
@@ -2100,7 +2100,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:PQFN_8x8"
+		(property "Footprint" ""
 			(at 170.18 104.14 0)
 			(effects
 				(font
