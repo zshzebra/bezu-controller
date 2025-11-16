@@ -4,10 +4,473 @@
 	(generator_version "9.0")
 	(uuid "192016dd-1af9-4f75-bd76-63c005f8be5e")
 	(paper "A4")
+	(title_block
+		(rev "A")
+	)
 	(lib_symbols)
 	(sheet
-		(at 140.97 96.52)
-		(size 19.05 10.16)
+		(at 134.62 86.995)
+		(size 19.05 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "037f76f1-69a6-4768-a844-e05eb8170872")
+		(property "Sheetname" "-ROLL H-Bridge1"
+			(at 134.62 86.2834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "h-bridge.kicad_sch"
+			(at 134.62 100.2796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN1" input
+			(at 134.62 89.535 180)
+			(uuid "e47a9f67-ffc7-4e18-bf92-ea6063d15d75")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN2" input
+			(at 134.62 93.345 180)
+			(uuid "aba7ca22-2636-45d7-87a0-f633df129b41")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT1" output
+			(at 153.67 89.535 0)
+			(uuid "21feeff7-eb2f-4c08-a4ed-bb980792c6cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT2" output
+			(at 153.67 97.155 0)
+			(uuid "c01845db-47fa-47d6-a044-42767e6eaf69")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{SD}" input
+			(at 134.62 97.155 180)
+			(uuid "e42a3546-4ba9-4c92-9b38-38ba6c34f626")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "bezu-controller"
+				(path "/192016dd-1af9-4f75-bd76-63c005f8be5e"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 107.95)
+		(size 19.05 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1430bb9d-b3fe-4744-b68e-4f89e4f1dd73")
+		(property "Sheetname" "ROLL H-Bridge2"
+			(at 134.62 107.2384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "h-bridge.kicad_sch"
+			(at 134.62 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN1" input
+			(at 134.62 110.49 180)
+			(uuid "82dd5e66-ba91-4aa8-b719-f2e856dacae5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN2" input
+			(at 134.62 114.3 180)
+			(uuid "9506985e-22c3-45e3-b9ed-19ff8154275a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT1" output
+			(at 153.67 110.49 0)
+			(uuid "63e2dac8-a178-4f52-86fd-032683258599")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT2" output
+			(at 153.67 118.11 0)
+			(uuid "d186b41e-5f8b-4806-978f-c0799325e268")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{SD}" input
+			(at 134.62 118.11 180)
+			(uuid "d7e0bed6-79d4-4db2-bf54-22a6c507eab4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "bezu-controller"
+				(path "/192016dd-1af9-4f75-bd76-63c005f8be5e"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 148.59)
+		(size 19.05 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2149c742-95fc-40db-88e3-325757a4b40f")
+		(property "Sheetname" "YAW H-Bridge3"
+			(at 134.62 147.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "h-bridge.kicad_sch"
+			(at 134.62 161.8746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN1" input
+			(at 134.62 151.13 180)
+			(uuid "4d76f788-8ea1-423a-b904-34e04e81bcf3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN2" input
+			(at 134.62 154.94 180)
+			(uuid "3e054fe2-268f-4490-a01f-d163dd05ddb9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT1" output
+			(at 153.67 151.13 0)
+			(uuid "c3573a24-6486-4599-9aae-a179808a86fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT2" output
+			(at 153.67 158.75 0)
+			(uuid "d9eb3ff0-a391-4141-bd37-29ccbbbf42a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{SD}" input
+			(at 134.62 158.75 180)
+			(uuid "eb0643bd-7e24-43f4-adb3-e4ef95170878")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "bezu-controller"
+				(path "/192016dd-1af9-4f75-bd76-63c005f8be5e"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 127.635)
+		(size 19.05 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "25056cf3-8f4e-4c43-b6ff-a61eb782c864")
+		(property "Sheetname" "-YAW H-Bridge2"
+			(at 134.62 126.9234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "h-bridge.kicad_sch"
+			(at 134.62 140.9196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN1" input
+			(at 134.62 130.175 180)
+			(uuid "eec9617b-0f04-42b9-a1fb-1b12eb7e7989")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN2" input
+			(at 134.62 133.985 180)
+			(uuid "3c474362-2b12-436b-9448-9c43807f9d38")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT1" output
+			(at 153.67 130.175 0)
+			(uuid "8e2d2da3-5b4b-46a1-a8af-a5a91f7c3d20")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT2" output
+			(at 153.67 137.795 0)
+			(uuid "7147a40f-49a0-4349-ae70-4f96fddf05e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{SD}" input
+			(at 134.62 137.795 180)
+			(uuid "8e46e101-bb6f-4df9-845d-e3b10b17b120")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "bezu-controller"
+				(path "/192016dd-1af9-4f75-bd76-63c005f8be5e"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 66.675)
+		(size 19.05 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "45d16427-2cb1-4d49-8ecf-8216d97eb11e")
+		(property "Sheetname" "PITCH H-Bridge1"
+			(at 134.62 65.9634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "h-bridge.kicad_sch"
+			(at 134.62 79.9596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN1" input
+			(at 134.62 69.215 180)
+			(uuid "85247062-e1b5-4a6e-bfeb-6a5199a5fd37")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN2" input
+			(at 134.62 73.025 180)
+			(uuid "f2feae48-eb2c-4a6c-b011-a4937bb62c20")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT1" output
+			(at 153.67 69.215 0)
+			(uuid "ca7ad41a-a940-4fa8-b334-10c6fb697b7c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT2" output
+			(at 153.67 76.835 0)
+			(uuid "76d11fa7-c68b-447e-80cf-bbbecb0c5d12")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{SD}" input
+			(at 134.62 76.835 180)
+			(uuid "c055678d-4f2b-4904-b66b-d5351101531b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "bezu-controller"
+				(path "/192016dd-1af9-4f75-bd76-63c005f8be5e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 45.72)
+		(size 19.05 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -21,8 +484,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "9897782e-08fe-4e99-a389-7b164bfce6c4")
-		(property "Sheetname" "H-Bridge"
-			(at 140.97 95.8084 0)
+		(property "Sheetname" "-PITCH H-Bridge"
+			(at 134.62 45.0084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +494,99 @@
 			)
 		)
 		(property "Sheetfile" "h-bridge.kicad_sch"
-			(at 140.97 107.2646 0)
+			(at 134.62 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN1" input
+			(at 134.62 48.26 180)
+			(uuid "996f26ef-056e-4a19-92a4-883face9ec36")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN2" input
+			(at 134.62 52.07 180)
+			(uuid "89d61d37-8286-42dc-b209-80241ddd836a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT1" output
+			(at 153.67 48.26 0)
+			(uuid "f21afe34-ce55-4247-abac-378c99ba69fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT2" output
+			(at 153.67 55.88 0)
+			(uuid "9c2a1634-21d9-4e52-8ecd-fae59adb81df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{SD}" input
+			(at 134.62 55.88 180)
+			(uuid "eb486fd3-af1c-456e-8b20-8b8bc1acc881")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "bezu-controller"
+				(path "/192016dd-1af9-4f75-bd76-63c005f8be5e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 41.91 91.44)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eb59687e-0b4d-4b14-80e7-8dc5126f9586")
+		(property "Sheetname" "MCU"
+			(at 41.91 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 41.91 95.8346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42,7 +597,7 @@
 		(instances
 			(project "bezu-controller"
 				(path "/192016dd-1af9-4f75-bd76-63c005f8be5e"
-					(page "2")
+					(page "20")
 				)
 			)
 		)

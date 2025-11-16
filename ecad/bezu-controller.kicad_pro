@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -180,7 +186,11 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.4,
+        0.6
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +217,16 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.6
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -560,12 +579,42 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part #",
+          "name": "LCSC Part #",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -597,6 +646,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -616,7 +673,79 @@
     ],
     [
       "9897782e-08fe-4e99-a389-7b164bfce6c4",
-      "H-Bridge"
+      "-PITCH H-Bridge"
+    ],
+    [
+      "138a5ae9-a4db-4fb6-98f4-b33ffdd70f30",
+      "Half Bridge 1"
+    ],
+    [
+      "db4c0235-3b9b-4ccb-b65c-1ce6ba6bc594",
+      "Half Bridge 2"
+    ],
+    [
+      "45d16427-2cb1-4d49-8ecf-8216d97eb11e",
+      "PITCH H-Bridge1"
+    ],
+    [
+      "138a5ae9-a4db-4fb6-98f4-b33ffdd70f30",
+      "Half Bridge 1"
+    ],
+    [
+      "db4c0235-3b9b-4ccb-b65c-1ce6ba6bc594",
+      "Half Bridge 2"
+    ],
+    [
+      "037f76f1-69a6-4768-a844-e05eb8170872",
+      "-ROLL H-Bridge1"
+    ],
+    [
+      "138a5ae9-a4db-4fb6-98f4-b33ffdd70f30",
+      "Half Bridge 1"
+    ],
+    [
+      "db4c0235-3b9b-4ccb-b65c-1ce6ba6bc594",
+      "Half Bridge 2"
+    ],
+    [
+      "1430bb9d-b3fe-4744-b68e-4f89e4f1dd73",
+      "ROLL H-Bridge2"
+    ],
+    [
+      "138a5ae9-a4db-4fb6-98f4-b33ffdd70f30",
+      "Half Bridge 1"
+    ],
+    [
+      "db4c0235-3b9b-4ccb-b65c-1ce6ba6bc594",
+      "Half Bridge 2"
+    ],
+    [
+      "25056cf3-8f4e-4c43-b6ff-a61eb782c864",
+      "-YAW H-Bridge2"
+    ],
+    [
+      "138a5ae9-a4db-4fb6-98f4-b33ffdd70f30",
+      "Half Bridge 1"
+    ],
+    [
+      "db4c0235-3b9b-4ccb-b65c-1ce6ba6bc594",
+      "Half Bridge 2"
+    ],
+    [
+      "2149c742-95fc-40db-88e3-325757a4b40f",
+      "YAW H-Bridge3"
+    ],
+    [
+      "138a5ae9-a4db-4fb6-98f4-b33ffdd70f30",
+      "Half Bridge 1"
+    ],
+    [
+      "db4c0235-3b9b-4ccb-b65c-1ce6ba6bc594",
+      "Half Bridge 2"
+    ],
+    [
+      "eb59687e-0b4d-4b14-80e7-8dc5126f9586",
+      "MCU"
     ]
   ],
   "text_variables": {}

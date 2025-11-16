@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "bezu-controller")(type "KiCad")(uri "${KIPRJMOD}/lib/footprints/bezu-controller.pretty")(options "")(descr ""))
+)
