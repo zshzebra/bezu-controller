@@ -685,7 +685,7 @@
     ],
     [
       "45d16427-2cb1-4d49-8ecf-8216d97eb11e",
-      "PITCH H-Bridge1"
+      "PITCH H-Bridge"
     ],
     [
       "138a5ae9-a4db-4fb6-98f4-b33ffdd70f30",
@@ -697,7 +697,7 @@
     ],
     [
       "037f76f1-69a6-4768-a844-e05eb8170872",
-      "-ROLL H-Bridge1"
+      "-ROLL H-Bridge"
     ],
     [
       "138a5ae9-a4db-4fb6-98f4-b33ffdd70f30",
@@ -709,7 +709,7 @@
     ],
     [
       "1430bb9d-b3fe-4744-b68e-4f89e4f1dd73",
-      "ROLL H-Bridge2"
+      "ROLL H-Bridge"
     ],
     [
       "138a5ae9-a4db-4fb6-98f4-b33ffdd70f30",
@@ -721,7 +721,7 @@
     ],
     [
       "25056cf3-8f4e-4c43-b6ff-a61eb782c864",
-      "-YAW H-Bridge2"
+      "-YAW H-Bridge"
     ],
     [
       "138a5ae9-a4db-4fb6-98f4-b33ffdd70f30",
@@ -733,7 +733,7 @@
     ],
     [
       "2149c742-95fc-40db-88e3-325757a4b40f",
-      "YAW H-Bridge3"
+      "YAW H-Bridge"
     ],
     [
       "138a5ae9-a4db-4fb6-98f4-b33ffdd70f30",

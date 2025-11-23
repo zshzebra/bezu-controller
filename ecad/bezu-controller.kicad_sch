@@ -24,7 +24,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "037f76f1-69a6-4768-a844-e05eb8170872")
-		(property "Sheetname" "-ROLL H-Bridge1"
+		(property "Sheetname" "-ROLL H-Bridge"
 			(at 134.62 86.2834 0)
 			(effects
 				(font
@@ -116,7 +116,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "1430bb9d-b3fe-4744-b68e-4f89e4f1dd73")
-		(property "Sheetname" "ROLL H-Bridge2"
+		(property "Sheetname" "ROLL H-Bridge"
 			(at 134.62 107.2384 0)
 			(effects
 				(font
@@ -208,7 +208,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "2149c742-95fc-40db-88e3-325757a4b40f")
-		(property "Sheetname" "YAW H-Bridge3"
+		(property "Sheetname" "YAW H-Bridge"
 			(at 134.62 147.8784 0)
 			(effects
 				(font
@@ -300,7 +300,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "25056cf3-8f4e-4c43-b6ff-a61eb782c864")
-		(property "Sheetname" "-YAW H-Bridge2"
+		(property "Sheetname" "-YAW H-Bridge"
 			(at 134.62 126.9234 0)
 			(effects
 				(font
@@ -392,7 +392,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "45d16427-2cb1-4d49-8ecf-8216d97eb11e")
-		(property "Sheetname" "PITCH H-Bridge1"
+		(property "Sheetname" "PITCH H-Bridge"
 			(at 134.62 65.9634 0)
 			(effects
 				(font
