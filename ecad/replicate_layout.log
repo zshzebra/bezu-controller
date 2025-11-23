@@ -1,5 +1,1248 @@
-11-17 09:52:44 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 409:Plugin executed on: 'linux'
-11-17 09:52:44 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 410:Plugin executed with python version: '3.13.7 (main, Aug 15 2025, 12:34:02) [GCC 15.2.1 20250813]'
-11-17 09:52:44 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 411:KiCad build version: 9.0.6
-11-17 09:52:44 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 412:Plugin version: 4.0.3
-11-17 09:52:44 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 413:Frame repr: <wx._core.Frame object at 0x7fd4855ca720>
+11-17 11:57:18 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 409:Plugin executed on: 'linux'
+11-17 11:57:18 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 410:Plugin executed with python version: '3.13.7 (main, Aug 15 2025, 12:34:02) [GCC 15.2.1 20250813]'
+11-17 11:57:18 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 411:KiCad build version: 9.0.6
+11-17 11:57:18 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 412:Plugin version: 4.0.3
+11-17 11:57:18 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 413:Frame repr: <wx._core.Frame object at 0x7f7654086a80>
+11-17 11:57:18 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 437:Preparing replicator with R1 as a reference
+11-17 11:57:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
+11-17 11:57:18 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 485:source anchor footprint is 'R1'
+Located on: ['/-PITCH H-Bridge/']
+With filenames: ['h-bridge.kicad_sch']
+With sheet_id:['/-PITCH H-Bridge/']
+11-17 11:57:18 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 492:Corresponding footprints are 
+[('R8', ['/PITCH H-Bridge1/']), ('R36', ['/YAW H-Bridge3/']), ('R15', ['/-ROLL H-Bridge1/']), ('R22', ['/ROLL H-Bridge2/']), ('R29', ['/-YAW H-Bridge2/']), ('R1', ['/-PITCH H-Bridge/'])]
+11-17 11:57:18 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 504:Showing dialog
+11-17 11:57:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 472:constructing a list of sheets suitable for replication on level:'/-PITCH H-Bridge/', file:'h-bridge.kicad_sch'
+11-17 11:57:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 509:suitable sheets are:[['/-ROLL H-Bridge1/'], ['/-YAW H-Bridge2/'], ['/PITCH H-Bridge1/'], ['/ROLL H-Bridge2/'], ['/YAW H-Bridge3/']]
+11-17 11:57:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1512:Level selected: ['/-PITCH H-Bridge/']
+11-17 11:57:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1336:Filtering list of tracks
+11-17 11:57:18 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 510:Toolbar position: wx.Point(1860, 61)
+11-17 11:57:18 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 515:Dialog position: wx.Point(1421, 61)
+11-17 11:57:20 com_github_MitjaNemec_ReplicateLayout.replicate_layout 472:constructing a list of sheets suitable for replication on level:'/-PITCH H-Bridge/', file:'h-bridge.kicad_sch'
+11-17 11:57:20 com_github_MitjaNemec_ReplicateLayout.replicate_layout 509:suitable sheets are:[['/-ROLL H-Bridge1/'], ['/-YAW H-Bridge2/'], ['/PITCH H-Bridge1/'], ['/ROLL H-Bridge2/'], ['/YAW H-Bridge3/']]
+11-17 11:57:20 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 248:Replicating layout
+11-17 11:57:20 com_github_MitjaNemec_ReplicateLayout.replicate_layout 288:Starting replication of sheets: [['/-ROLL H-Bridge1/'], ['/-YAW H-Bridge2/'], ['/PITCH H-Bridge1/'], ['/ROLL H-Bridge2/'], ['/YAW H-Bridge3/']]
+on level: ['/-PITCH H-Bridge/']
+with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=True, locked footprints=False, group_only=False
+11-17 11:57:20 root 340:updating GUI message: 'Preparing for replication'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 358:Getting the list of source footprints
+11-17 11:57:21 root 345:updating GUI with: 0
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 368:Getting the list of all the remaining footprints
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 375:Getting source tracks
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1336:Filtering list of tracks
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 379:Getting source zones
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 383:Getting source text items
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 387:Getting source drawing items
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 320:Removing tracks and zones, before footprint placement
+11-17 11:57:21 root 340:updating GUI message: 'Removing zones and tracks'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1282:Remove bounding box top:79736952, bottom:103310000, Left:239295000, Right:269345000
+11-17 11:57:21 root 345:updating GUI with: 20
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1282:Remove bounding box top:103736952, bottom:127310000, Left:217295000, Right:240345000
+11-17 11:57:21 root 345:updating GUI with: 40
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1282:Remove bounding box top:79736952, bottom:103310000, Left:217295000, Right:240345000
+11-17 11:57:21 root 345:updating GUI with: 60
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1282:Remove bounding box top:103736952, bottom:127310000, Left:193195000, Right:211345000
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1282:Remove bounding box top:103736952, bottom:127310000, Left:239295000, Right:269345000
+11-17 11:57:21 root 340:updating GUI message: 'Replicating footprints'
+11-17 11:57:21 root 345:updating GUI with: 0
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 863:Replicating footprints
+11-17 11:57:21 root 345:updating GUI with: 0
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 870:Replicating footprints on sheet ['/-ROLL H-Bridge1/']
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'C4'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: 'FFD6DD39-C323-43A0-8E03-5A0726ADD565'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'FFD6DD39-C323-43A0-8E03-5A0726ADD565'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'FFD6DD39-C323-43A0-8E03-5A0726ADD565'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'C16'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:17d35905-ae7b-4ee8-98ad-3144dc8b974b
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:f7b20740-985c-4974-9383-8381bd3d6ac6
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:d561b56a-981d-4f30-815e-24f4351a24e7
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:67647564-7a88-4190-9da8-29abac55c607
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:b5de53b0-4997-4ac3-ab8d-66b44b916f6d
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:7ac86bb4-93fb-492f-973f-a457a8618949
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'D1'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: 'DD23AE59-3F89-40F5-A0DE-B92DB711240E'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'DD23AE59-3F89-40F5-A0DE-B92DB711240E'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'DD23AE59-3F89-40F5-A0DE-B92DB711240E'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'D5'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:827b664d-200f-40a4-82e1-9a7d3cc53683
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:b639bc56-709c-4de9-a2a2-6ac2b0c66538
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:c43fa18a-87fa-4176-b19b-a3d880ece7d4
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:e4764b28-bc72-4d96-9d21-14ee20d8d703
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:e8348eb2-fc2c-4f41-8071-da385b56598e
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:df51ec54-1f94-4f86-8ffb-6603dad96f8f
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'C2'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '7A82147A-4035-475D-9DEA-AA6F552733E3'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '7A82147A-4035-475D-9DEA-AA6F552733E3'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '7A82147A-4035-475D-9DEA-AA6F552733E3'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'C14'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:08c02a99-d620-4c07-a202-eddfef32f211
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:a1f01179-fcca-4df6-a744-b9f4bf0ddaf7
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:13d814af-9e56-48fe-9f41-84ebb2e7504a
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:423ae2d4-9d28-4c8d-b1df-441274636501
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:85595229-0c40-45a0-a348-4f80b5171f3d
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:86be3f1c-89ed-4de7-816f-b0c9d1379972
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'R4'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '19A40AFE-8FD0-4015-A427-00897AE94415'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '19A40AFE-8FD0-4015-A427-00897AE94415'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '19A40AFE-8FD0-4015-A427-00897AE94415'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'R18'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:2411d09b-4c8e-4c7e-8c50-0ebdf729d7e8
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:6d370e19-c1e8-4918-8f47-5212c6ce6195
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:e84811a2-4f0a-4a3f-b146-e4e2f642eb3d
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:e22d28a6-d0c8-4d3d-bfda-0a6ca63563f7
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:a89477e7-38e7-41ee-a91e-0e70944e5123
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:4d5fbce8-82d3-4839-81fb-f1c13d680d76
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'R2'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '39EF6964-E592-4128-B052-4F32E7F01D46'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '39EF6964-E592-4128-B052-4F32E7F01D46'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '39EF6964-E592-4128-B052-4F32E7F01D46'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'R16'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:a3e306fb-2a40-4ffc-9b5e-ba157d79b502
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:35c517f5-4c08-4ac8-abbb-1db01626dc27
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:dad5bc8a-ed36-4cca-a803-162aa9a55568
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:1c05e01c-fd46-4437-90ca-22c4eb696634
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:d3099268-1830-4c85-81d9-eeaca4d10170
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:655eda2c-46c5-4424-9495-306d8d07183b
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'Q1'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '333D3CC4-DAF9-4906-BBD4-1A07F42B71DA'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '333D3CC4-DAF9-4906-BBD4-1A07F42B71DA'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '333D3CC4-DAF9-4906-BBD4-1A07F42B71DA'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'Q9'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:07349910-5a78-4ddd-87b0-6659d8e09fd4
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:584c7941-2125-429f-9571-9f8669d8f37f
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:f0ab5188-2f7e-421e-9553-cab93dda6c61
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:693e73d9-464d-452f-8e20-44e1aa2a3b8a
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:3ec76933-e04e-4642-a489-907a9c15ede5
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:dcdc2a7a-de3d-4156-a476-994f70d2c621
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'C1'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: 'FFD6DD39-C323-43A0-8E03-5A0726ADD565'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'FFD6DD39-C323-43A0-8E03-5A0726ADD565'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'FFD6DD39-C323-43A0-8E03-5A0726ADD565'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'C13'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:2a4e0467-a1cb-4983-ba95-142703dee863
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:4fbfb881-ed1a-41fe-a846-cc9a2d558284
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:620fd2ae-fa81-49c6-a709-f0c8a2b1ad46
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:fb02d2d7-eab2-42d8-929c-90e418b0c72f
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:982ee6f0-5894-4926-a49e-251ebe5e0014
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:c3d944b5-1ef4-4400-a28a-ee4fd945ab68
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'U2'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '617AB18D-C8E6-4D18-9E1D-6146246B03A9'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '617AB18D-C8E6-4D18-9E1D-6146246B03A9'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '617AB18D-C8E6-4D18-9E1D-6146246B03A9'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'U6'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:f1310936-6903-4648-9513-b693d09c95f2
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:187bf975-bdb2-4f39-a9c8-7ea9483d7026
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:f1ea21ca-f3fc-4f4f-98f2-7c6c23b10704
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:5ee19ce0-b65c-425a-8d4b-6ad61fe8fd61
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:e18d8bc0-ddbb-4930-bc2d-31dd53cf7b00
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:35d9eed9-d632-47fb-a876-4c763469c89e
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'Q3'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '333D3CC4-DAF9-4906-BBD4-1A07F42B71DA'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '333D3CC4-DAF9-4906-BBD4-1A07F42B71DA'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '333D3CC4-DAF9-4906-BBD4-1A07F42B71DA'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'Q11'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:08dfe33f-dcd6-49b2-9b34-5d80a0ea113c
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:7defd2ab-97e6-4d1e-8fc8-c874516ac45f
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:0eff0547-1e4d-4fb4-b878-18633f7ac95a
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:5e54028e-dd31-446d-aaad-89f26eeccf57
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:45052d5a-6421-4ee2-9e7f-e808025b29d1
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:4fe58051-374e-4381-8906-ab921cc06e23
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'R7'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '19A40AFE-8FD0-4015-A427-00897AE94415'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '19A40AFE-8FD0-4015-A427-00897AE94415'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '19A40AFE-8FD0-4015-A427-00897AE94415'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'R21'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:63bc18e3-7ee3-4b89-b683-440976af8a89
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:7d5c79b0-18c7-424b-a736-c7d131e95104
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:cc553bc8-0937-4ac2-85e7-913807a7ad0e
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:14e2c6fb-ceb6-4afd-a585-2dc7ce406fcd
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:f8e7d1ec-327f-4775-b6e9-dfb5561e62c6
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:eef4aa48-ee5b-4e54-881b-92dab3f8bebf
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'R6'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '5969CCF5-98B4-4A1E-A2B9-548A80C90FD6'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '5969CCF5-98B4-4A1E-A2B9-548A80C90FD6'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '5969CCF5-98B4-4A1E-A2B9-548A80C90FD6'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'R20'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:8adb1b6f-fe22-4423-be4c-2fd821d567e9
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:9ba6be36-243a-448c-88fc-77844e445e03
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:cd9a1be6-6e4a-4384-881d-32e12e5d1789
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:533053da-2304-4b7b-81f5-a0add9a99d33
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:075b71b2-a977-4a6a-8ca5-d19084f991c9
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:c7e96dd2-e1f3-45a3-b722-e07189e5180b
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'R3'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '5969CCF5-98B4-4A1E-A2B9-548A80C90FD6'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '5969CCF5-98B4-4A1E-A2B9-548A80C90FD6'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '5969CCF5-98B4-4A1E-A2B9-548A80C90FD6'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'R17'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:13f7fd8e-b2b7-4490-9298-dbc11b2ee541
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:20c74c97-b243-4ff4-b151-c991d34250a0
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:d19b4be5-df9e-4adc-b9f6-100953c12877
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:4bb2f092-06a0-4d0d-bf56-f736700d950f
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:ab457881-265b-4eb4-bd70-a4d9b6418b49
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:00a7b822-41c1-4d1f-9f32-16bd290d3c11
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'Q2'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '3AC12F21-9B71-4DFB-846E-BAA5526E99E7'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '3AC12F21-9B71-4DFB-846E-BAA5526E99E7'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '3AC12F21-9B71-4DFB-846E-BAA5526E99E7'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'Q10'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:fd653b15-d5a8-46cf-937b-f46724c9a5fe
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:cf41ff04-b357-418c-ab49-b2fbbcb2f5e1
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:0073ed9b-bfcc-4134-b178-8a7f07f22b8c
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:1dbcfd8a-b1a8-4ad7-a7b7-b9bb3085a134
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:2797c87a-26b7-4878-bf61-f221d774c457
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:68200a86-e391-492d-8b4a-6b44d5613b0c
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'C5'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '7A82147A-4035-475D-9DEA-AA6F552733E3'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '7A82147A-4035-475D-9DEA-AA6F552733E3'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '7A82147A-4035-475D-9DEA-AA6F552733E3'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'C17'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:ef8cca66-2c2e-4b4a-93e8-05c6981bed87
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:89b9b261-3724-4018-a873-f99c2397ff3d
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:197d307d-03ed-451f-9719-b281b9551529
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:dad9c7b7-cc3b-4f70-b67e-cc73b346751b
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:acb7e481-b280-4567-9623-1232b87469bd
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:6b06270f-af16-447e-8c02-10ac5da2128d
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'C6'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '77F4116B-E9F5-462C-AFD0-37DE4CDCF41E'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '77F4116B-E9F5-462C-AFD0-37DE4CDCF41E'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'C18'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:c7e1f7d4-7f52-4e10-a34d-f6088ac91641
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:674970fc-74e0-4f64-b41e-500beada3005
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:cceea73e-bed4-42d6-9865-ba1b8448b759
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:55917681-376a-4ee2-80a8-224422203474
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:98262ae9-fec1-4cdd-8b76-04141e75b08c
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:55c68c62-5d43-4637-a514-4ee84e3119dc
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'Q4'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '3AC12F21-9B71-4DFB-846E-BAA5526E99E7'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '3AC12F21-9B71-4DFB-846E-BAA5526E99E7'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '3AC12F21-9B71-4DFB-846E-BAA5526E99E7'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'Q12'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:a990d1c2-c47f-4674-8d85-46df9115ac89
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:cd17d6b2-81e9-45f4-b986-29b7e194378e
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:bd9110ee-7d13-48d5-84ef-47f2354ff1ee
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:465b4bdc-e782-49ba-a53a-f5bbf06b4a4d
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:56494f3d-fdd8-4a9d-ba7d-68511f93267d
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:1645553b-4b03-4bbc-be80-083476c48cea
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'U1'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '617AB18D-C8E6-4D18-9E1D-6146246B03A9'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '617AB18D-C8E6-4D18-9E1D-6146246B03A9'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '617AB18D-C8E6-4D18-9E1D-6146246B03A9'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'U5'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:72ea28a8-3ab9-4dd2-93d9-c227d5cf8eea
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:2da3b7c6-e833-495c-aa96-cbd3ae379e82
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:7e8e36d7-a805-49b4-8625-ebd5387b9c5e
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:3a7e8572-e4ae-45e9-aa2f-68a07844010a
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:6ec09336-19ac-4527-b053-56f77dfc1b6f
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:50efdc8d-fd0f-42fd-8fdc-ce94a6dc9847
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'R5'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '39EF6964-E592-4128-B052-4F32E7F01D46'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '39EF6964-E592-4128-B052-4F32E7F01D46'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '39EF6964-E592-4128-B052-4F32E7F01D46'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'R19'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:25c6344f-9766-43aa-9d35-1e5543d9b9f5
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:cabc6d40-50a1-4534-ba71-bd55e6508a8a
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:5f8d6eca-70ee-4bfd-9716-08db6ad2959b
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:b9a5a9f7-c694-4f84-8d74-9d2be862b699
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:89140806-b151-44a8-980b-e29c667ff376
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:48397669-c212-4d95-b7e2-5d5f9c65691b
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'D2'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: 'DD23AE59-3F89-40F5-A0DE-B92DB711240E'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'DD23AE59-3F89-40F5-A0DE-B92DB711240E'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'DD23AE59-3F89-40F5-A0DE-B92DB711240E'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'D6'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:7a6c9708-1700-485d-8540-33d991328cfb
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:a72bd916-3dba-4f44-93c2-dcd34bd5b401
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:958216d0-791b-45bc-8329-ff33d11f00a8
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:53373cde-0c2a-4141-a4a7-c446af835217
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:b02af4ec-9d52-4ddc-b2c2-23e73cf6d4ec
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:82a76e19-ab5b-46df-b4dd-66862581d55a
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'R1'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'R15'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:a2825878-13e6-4855-ac50-17ff57f6251b
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:4101b761-e157-4933-9ab3-81d34b9698c2
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:42f84bed-7d5b-483d-b4e8-8e4afc2e810e
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:50e19de7-a8b6-47f5-b782-bdb794afd65d
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:9d15b326-84a8-4a3e-9aa5-2f9f86095ef5
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:7708ca71-0c48-491e-a83d-77f5fb327cbd
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 870:Replicating footprints on sheet ['/-YAW H-Bridge2/']
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'C4'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: 'FFD6DD39-C323-43A0-8E03-5A0726ADD565'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'FFD6DD39-C323-43A0-8E03-5A0726ADD565'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'FFD6DD39-C323-43A0-8E03-5A0726ADD565'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'C28'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:17d35905-ae7b-4ee8-98ad-3144dc8b974b
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:3b2ee125-d7c0-4900-a0dd-180d9f98c3a7
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:d561b56a-981d-4f30-815e-24f4351a24e7
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:50defb05-9fde-4e2f-ac7c-78f47e2a0300
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:b5de53b0-4997-4ac3-ab8d-66b44b916f6d
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:45882af1-3394-455f-97eb-2b7fc5065c10
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'D1'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: 'DD23AE59-3F89-40F5-A0DE-B92DB711240E'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'DD23AE59-3F89-40F5-A0DE-B92DB711240E'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'DD23AE59-3F89-40F5-A0DE-B92DB711240E'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'D9'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:827b664d-200f-40a4-82e1-9a7d3cc53683
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:4cbf8ebe-50da-4fff-b2a8-b967032c82b9
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:c43fa18a-87fa-4176-b19b-a3d880ece7d4
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:7276f8c9-f324-4306-9fc0-a5b175c276e7
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:e8348eb2-fc2c-4f41-8071-da385b56598e
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:2ef13472-63b5-40b3-866f-12b19db9e158
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'C2'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '7A82147A-4035-475D-9DEA-AA6F552733E3'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '7A82147A-4035-475D-9DEA-AA6F552733E3'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '7A82147A-4035-475D-9DEA-AA6F552733E3'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'C26'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:08c02a99-d620-4c07-a202-eddfef32f211
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:cd824b6a-82f4-4e64-8591-720426386efa
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:13d814af-9e56-48fe-9f41-84ebb2e7504a
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:ba8459e4-6c2d-4271-af94-ab8694e3e7eb
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:85595229-0c40-45a0-a348-4f80b5171f3d
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:a8002eef-823d-4be8-a90d-b345c509b2b3
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'R4'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '19A40AFE-8FD0-4015-A427-00897AE94415'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '19A40AFE-8FD0-4015-A427-00897AE94415'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '19A40AFE-8FD0-4015-A427-00897AE94415'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'R32'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:2411d09b-4c8e-4c7e-8c50-0ebdf729d7e8
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:389ed1a1-473b-4b7a-99c6-a1c581274946
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:e84811a2-4f0a-4a3f-b146-e4e2f642eb3d
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:0886146b-fe4f-493c-9462-83e20c6f93cd
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:a89477e7-38e7-41ee-a91e-0e70944e5123
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:4bd6d665-0ca8-40c7-a717-75906d2a9c10
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'R2'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '39EF6964-E592-4128-B052-4F32E7F01D46'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '39EF6964-E592-4128-B052-4F32E7F01D46'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '39EF6964-E592-4128-B052-4F32E7F01D46'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'R30'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:a3e306fb-2a40-4ffc-9b5e-ba157d79b502
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:9c983e58-1fae-45f2-81b7-a349902c6474
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:dad5bc8a-ed36-4cca-a803-162aa9a55568
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:a898dd4c-37d7-4acd-ac77-a126925eeccf
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:d3099268-1830-4c85-81d9-eeaca4d10170
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:3147ab34-6ec5-4dd8-9242-60c3e063425d
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'Q1'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '333D3CC4-DAF9-4906-BBD4-1A07F42B71DA'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '333D3CC4-DAF9-4906-BBD4-1A07F42B71DA'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '333D3CC4-DAF9-4906-BBD4-1A07F42B71DA'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'Q17'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:07349910-5a78-4ddd-87b0-6659d8e09fd4
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:b0b08dd9-0545-4468-b750-42ea57db2231
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:f0ab5188-2f7e-421e-9553-cab93dda6c61
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:c56e4ccf-a2f7-4c7a-8fa2-75a57076caa7
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:3ec76933-e04e-4642-a489-907a9c15ede5
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:148aaaf7-88e1-4677-a0eb-d7098e52ef1b
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'C1'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: 'FFD6DD39-C323-43A0-8E03-5A0726ADD565'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'FFD6DD39-C323-43A0-8E03-5A0726ADD565'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'FFD6DD39-C323-43A0-8E03-5A0726ADD565'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'C25'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:2a4e0467-a1cb-4983-ba95-142703dee863
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:2e836e73-aaef-402e-b0ba-6241610147d0
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:620fd2ae-fa81-49c6-a709-f0c8a2b1ad46
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:9a610d1c-d95c-4912-8486-15e01d67e41c
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:982ee6f0-5894-4926-a49e-251ebe5e0014
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:0d196a05-8d8b-4614-b8e0-7c33c32b0465
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'U2'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '617AB18D-C8E6-4D18-9E1D-6146246B03A9'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '617AB18D-C8E6-4D18-9E1D-6146246B03A9'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '617AB18D-C8E6-4D18-9E1D-6146246B03A9'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'U10'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:f1310936-6903-4648-9513-b693d09c95f2
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:194e298f-0e8f-40a7-9754-f7492f7336e1
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:f1ea21ca-f3fc-4f4f-98f2-7c6c23b10704
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:86997494-d0f0-467b-8c03-a45c46acff4d
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:e18d8bc0-ddbb-4930-bc2d-31dd53cf7b00
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:090ab44f-2e04-4b6d-8914-6d48d00add8f
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'Q3'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '333D3CC4-DAF9-4906-BBD4-1A07F42B71DA'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '333D3CC4-DAF9-4906-BBD4-1A07F42B71DA'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '333D3CC4-DAF9-4906-BBD4-1A07F42B71DA'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'Q19'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:08dfe33f-dcd6-49b2-9b34-5d80a0ea113c
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:e35c8dd7-7333-4097-93de-977262dd508f
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:0eff0547-1e4d-4fb4-b878-18633f7ac95a
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:afd8510d-5d35-417c-883c-f87d5da35cc7
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:45052d5a-6421-4ee2-9e7f-e808025b29d1
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:f33b24cb-7413-41ce-b17e-3eff5f82e954
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'R7'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '19A40AFE-8FD0-4015-A427-00897AE94415'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '19A40AFE-8FD0-4015-A427-00897AE94415'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '19A40AFE-8FD0-4015-A427-00897AE94415'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'R35'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:63bc18e3-7ee3-4b89-b683-440976af8a89
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:245251ac-12be-444c-b583-e6f40ae65ea3
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:cc553bc8-0937-4ac2-85e7-913807a7ad0e
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:88faf56b-107f-47cb-9bdf-62dd55cee452
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:f8e7d1ec-327f-4775-b6e9-dfb5561e62c6
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:0a1a31a6-a557-43af-a597-450e877199fb
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'R6'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '5969CCF5-98B4-4A1E-A2B9-548A80C90FD6'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '5969CCF5-98B4-4A1E-A2B9-548A80C90FD6'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '5969CCF5-98B4-4A1E-A2B9-548A80C90FD6'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'R34'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:8adb1b6f-fe22-4423-be4c-2fd821d567e9
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:f45f9a26-9891-4f94-a5a0-208501738528
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:cd9a1be6-6e4a-4384-881d-32e12e5d1789
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:e945c75f-0566-45e3-baab-e6ff57409a7e
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:075b71b2-a977-4a6a-8ca5-d19084f991c9
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:27e71dd2-63b1-434a-89ed-2e99a79a9025
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'R3'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '5969CCF5-98B4-4A1E-A2B9-548A80C90FD6'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '5969CCF5-98B4-4A1E-A2B9-548A80C90FD6'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '5969CCF5-98B4-4A1E-A2B9-548A80C90FD6'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'R31'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:13f7fd8e-b2b7-4490-9298-dbc11b2ee541
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:5c33a7c1-e553-45ae-9a09-ab0912421807
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:d19b4be5-df9e-4adc-b9f6-100953c12877
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:fdef81b5-15ff-4fa6-90da-f49767e041aa
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:ab457881-265b-4eb4-bd70-a4d9b6418b49
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:95af1453-ba67-426d-972a-0d5f192bab2b
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'Q2'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '3AC12F21-9B71-4DFB-846E-BAA5526E99E7'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '3AC12F21-9B71-4DFB-846E-BAA5526E99E7'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '3AC12F21-9B71-4DFB-846E-BAA5526E99E7'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'Q18'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:fd653b15-d5a8-46cf-937b-f46724c9a5fe
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:170a3870-3f48-4f98-83fa-ae48dd95a796
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:0073ed9b-bfcc-4134-b178-8a7f07f22b8c
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:a04fa109-c150-460f-be14-1349e2e41e9e
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:2797c87a-26b7-4878-bf61-f221d774c457
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:e41b364e-ee52-49dd-8ee7-d7c78d7c11e5
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'C5'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '7A82147A-4035-475D-9DEA-AA6F552733E3'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '7A82147A-4035-475D-9DEA-AA6F552733E3'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '7A82147A-4035-475D-9DEA-AA6F552733E3'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'C29'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:ef8cca66-2c2e-4b4a-93e8-05c6981bed87
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:ccb1b5f4-6924-4071-890a-85ff328f329c
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:197d307d-03ed-451f-9719-b281b9551529
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:7f3bd350-2f95-4424-9e3e-01ea6ac2ee75
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:acb7e481-b280-4567-9623-1232b87469bd
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:78c67c06-bfe5-4146-9e67-037353c7feb1
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'C6'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '77F4116B-E9F5-462C-AFD0-37DE4CDCF41E'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '77F4116B-E9F5-462C-AFD0-37DE4CDCF41E'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'C30'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:c7e1f7d4-7f52-4e10-a34d-f6088ac91641
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:f89ea225-88c2-4650-abd0-0e7f892686a9
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:cceea73e-bed4-42d6-9865-ba1b8448b759
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:a799290d-08c5-4825-8b59-79d2476a37b3
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:98262ae9-fec1-4cdd-8b76-04141e75b08c
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:90d4de7a-88f0-4f67-a596-476c4e3183fb
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'Q4'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '3AC12F21-9B71-4DFB-846E-BAA5526E99E7'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '3AC12F21-9B71-4DFB-846E-BAA5526E99E7'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '3AC12F21-9B71-4DFB-846E-BAA5526E99E7'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'Q20'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:a990d1c2-c47f-4674-8d85-46df9115ac89
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:49e3b72e-8753-4707-8093-9d06310eeef0
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:bd9110ee-7d13-48d5-84ef-47f2354ff1ee
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:96b4efc7-e95d-4061-8e2a-35c8774d99a2
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:56494f3d-fdd8-4a9d-ba7d-68511f93267d
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:9fd90dbe-764f-4b8f-bb6a-f057f30ae3d3
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'U1'
+11-17 11:57:21 root 345:updating GUI with: 37
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '617AB18D-C8E6-4D18-9E1D-6146246B03A9'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '617AB18D-C8E6-4D18-9E1D-6146246B03A9'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '617AB18D-C8E6-4D18-9E1D-6146246B03A9'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'U9'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:72ea28a8-3ab9-4dd2-93d9-c227d5cf8eea
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:2860a3ae-dd17-4945-8b4f-c43007c29cae
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:7e8e36d7-a805-49b4-8625-ebd5387b9c5e
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:72c29cc8-047c-4200-a201-2ca7d9ff4d09
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:6ec09336-19ac-4527-b053-56f77dfc1b6f
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:9ddea1be-26f9-4ac2-a68e-7ea8a8871969
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'R5'
+11-17 11:57:21 root 345:updating GUI with: 38
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '39EF6964-E592-4128-B052-4F32E7F01D46'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '39EF6964-E592-4128-B052-4F32E7F01D46'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '39EF6964-E592-4128-B052-4F32E7F01D46'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'R33'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:25c6344f-9766-43aa-9d35-1e5543d9b9f5
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:03067888-3eb9-4656-8aa6-5cbad9009509
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:5f8d6eca-70ee-4bfd-9716-08db6ad2959b
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:5682a085-36f6-4ddc-ae32-f899c2e75092
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:89140806-b151-44a8-980b-e29c667ff376
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:7fd40cfa-586c-42b0-bdd5-a1bb7ed5df92
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'D2'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: 'DD23AE59-3F89-40F5-A0DE-B92DB711240E'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'DD23AE59-3F89-40F5-A0DE-B92DB711240E'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'DD23AE59-3F89-40F5-A0DE-B92DB711240E'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'D10'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:7a6c9708-1700-485d-8540-33d991328cfb
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:575c48af-353f-43fd-9bf1-6ce9c0e5a02f
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:958216d0-791b-45bc-8329-ff33d11f00a8
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:bfbcd5bb-4e16-452c-8fc4-fcc6e8987fba
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:b02af4ec-9d52-4ddc-b2c2-23e73cf6d4ec
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:0fe6e11d-96e7-4c25-aef2-7f6c66b3cdbc
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'R1'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'R29'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:a2825878-13e6-4855-ac50-17ff57f6251b
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:df99409c-e3cd-4c12-adef-df6a107ff44d
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:42f84bed-7d5b-483d-b4e8-8e4afc2e810e
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:9f1ffcdf-48b1-4288-b8ee-d6981dabb0c0
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:9d15b326-84a8-4a3e-9aa5-2f9f86095ef5
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:c5df3e74-9053-48a0-a037-1c6b23c9e833
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 870:Replicating footprints on sheet ['/PITCH H-Bridge1/']
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'C4'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: 'FFD6DD39-C323-43A0-8E03-5A0726ADD565'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'FFD6DD39-C323-43A0-8E03-5A0726ADD565'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'FFD6DD39-C323-43A0-8E03-5A0726ADD565'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'C10'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:17d35905-ae7b-4ee8-98ad-3144dc8b974b
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:171377b6-9616-4da4-b5bc-590053ff701f
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:d561b56a-981d-4f30-815e-24f4351a24e7
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:babb0744-10d4-4a86-baff-51c8975154cf
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:b5de53b0-4997-4ac3-ab8d-66b44b916f6d
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:d18f3c74-887d-4283-81c4-6d041884d48a
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'D1'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: 'DD23AE59-3F89-40F5-A0DE-B92DB711240E'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'DD23AE59-3F89-40F5-A0DE-B92DB711240E'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'DD23AE59-3F89-40F5-A0DE-B92DB711240E'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'D3'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:827b664d-200f-40a4-82e1-9a7d3cc53683
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:ea503dc2-6b57-4c77-8394-ae8accbfda42
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:c43fa18a-87fa-4176-b19b-a3d880ece7d4
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:2e143978-b65c-4456-ac4c-03a980a6b2f0
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:e8348eb2-fc2c-4f41-8071-da385b56598e
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:86d358f3-972c-4be0-91d3-ab99db05f450
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'C2'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '7A82147A-4035-475D-9DEA-AA6F552733E3'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '7A82147A-4035-475D-9DEA-AA6F552733E3'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '7A82147A-4035-475D-9DEA-AA6F552733E3'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'C8'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:08c02a99-d620-4c07-a202-eddfef32f211
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:cefd7c14-42e9-41be-a42e-51aaa4debf14
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:13d814af-9e56-48fe-9f41-84ebb2e7504a
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:164a2e98-a376-4f7b-b863-bd700e90305c
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:85595229-0c40-45a0-a348-4f80b5171f3d
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:ef13f710-c2b0-4948-a754-b82693814317
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'R4'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '19A40AFE-8FD0-4015-A427-00897AE94415'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '19A40AFE-8FD0-4015-A427-00897AE94415'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '19A40AFE-8FD0-4015-A427-00897AE94415'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'R11'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:2411d09b-4c8e-4c7e-8c50-0ebdf729d7e8
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:eace61b4-3051-4eea-a252-96b50f288e62
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:e84811a2-4f0a-4a3f-b146-e4e2f642eb3d
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:f2315fb4-3216-4160-a5fc-6295736a61f8
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:a89477e7-38e7-41ee-a91e-0e70944e5123
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:9d5eee7a-a660-4e82-95cb-cf85b2cc8642
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'R2'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '39EF6964-E592-4128-B052-4F32E7F01D46'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '39EF6964-E592-4128-B052-4F32E7F01D46'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '39EF6964-E592-4128-B052-4F32E7F01D46'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'R9'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:a3e306fb-2a40-4ffc-9b5e-ba157d79b502
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:cfa646dd-68ab-4985-be57-8696583913eb
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:dad5bc8a-ed36-4cca-a803-162aa9a55568
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:9e3cd699-0497-47d0-a765-35f4d4bd4557
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:d3099268-1830-4c85-81d9-eeaca4d10170
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:ce83c3cc-2cfa-46dc-89a1-49df3838cfd9
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'Q1'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '333D3CC4-DAF9-4906-BBD4-1A07F42B71DA'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '333D3CC4-DAF9-4906-BBD4-1A07F42B71DA'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '333D3CC4-DAF9-4906-BBD4-1A07F42B71DA'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'Q5'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:07349910-5a78-4ddd-87b0-6659d8e09fd4
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:4f73bd53-5b6b-4c0c-8b6f-8b1c885f1616
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:f0ab5188-2f7e-421e-9553-cab93dda6c61
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:a1028940-208b-43b4-8aa3-259a67df3c66
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:3ec76933-e04e-4642-a489-907a9c15ede5
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:9d8e3f60-4789-4aca-ab92-46719bf15156
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'C1'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: 'FFD6DD39-C323-43A0-8E03-5A0726ADD565'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'FFD6DD39-C323-43A0-8E03-5A0726ADD565'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'FFD6DD39-C323-43A0-8E03-5A0726ADD565'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'C7'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:2a4e0467-a1cb-4983-ba95-142703dee863
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:bcb5cf4a-8ae3-4a73-b28e-1c79ad9d35db
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:620fd2ae-fa81-49c6-a709-f0c8a2b1ad46
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:ffba77d7-ea20-49cf-a5ac-ed7f2a2aefb4
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:982ee6f0-5894-4926-a49e-251ebe5e0014
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:056fb677-c83a-4a45-a7fb-b1c313067a2e
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'U2'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '617AB18D-C8E6-4D18-9E1D-6146246B03A9'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '617AB18D-C8E6-4D18-9E1D-6146246B03A9'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '617AB18D-C8E6-4D18-9E1D-6146246B03A9'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'U4'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:f1310936-6903-4648-9513-b693d09c95f2
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:e7c1ef9b-7266-497f-8c5d-d2c0177977da
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:f1ea21ca-f3fc-4f4f-98f2-7c6c23b10704
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:934dc743-2633-4a95-892c-095ae3240c8e
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:e18d8bc0-ddbb-4930-bc2d-31dd53cf7b00
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:646b3d88-8f8a-44e4-b84a-a936e4f9ff2b
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'Q3'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '333D3CC4-DAF9-4906-BBD4-1A07F42B71DA'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '333D3CC4-DAF9-4906-BBD4-1A07F42B71DA'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '333D3CC4-DAF9-4906-BBD4-1A07F42B71DA'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'Q7'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:08dfe33f-dcd6-49b2-9b34-5d80a0ea113c
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:27ca396b-ad9c-4911-88b3-461487bfc9c6
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:0eff0547-1e4d-4fb4-b878-18633f7ac95a
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:731a9bf5-71a1-4cc3-92fa-21678bb7f6ab
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:45052d5a-6421-4ee2-9e7f-e808025b29d1
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:d6abd31b-f16b-4731-a64b-0c219c5340d3
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'R7'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '19A40AFE-8FD0-4015-A427-00897AE94415'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '19A40AFE-8FD0-4015-A427-00897AE94415'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '19A40AFE-8FD0-4015-A427-00897AE94415'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'R14'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:63bc18e3-7ee3-4b89-b683-440976af8a89
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:5a4e643c-f897-470b-9817-5a09fad88de1
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:cc553bc8-0937-4ac2-85e7-913807a7ad0e
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:13ede827-0885-438e-9c45-2cd1cef58bcb
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:f8e7d1ec-327f-4775-b6e9-dfb5561e62c6
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:5f34cfc7-3623-4877-86c1-4f6da463b50a
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'R6'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '5969CCF5-98B4-4A1E-A2B9-548A80C90FD6'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '5969CCF5-98B4-4A1E-A2B9-548A80C90FD6'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '5969CCF5-98B4-4A1E-A2B9-548A80C90FD6'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'R13'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:8adb1b6f-fe22-4423-be4c-2fd821d567e9
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:236e8f35-5e32-4022-bbd7-9e7aa25715bb
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:cd9a1be6-6e4a-4384-881d-32e12e5d1789
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:a32bac98-eafb-4283-aa45-1817855df88c
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:075b71b2-a977-4a6a-8ca5-d19084f991c9
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:59186980-94e0-4ffe-bad2-3eeaefaf6a64
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'R3'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '5969CCF5-98B4-4A1E-A2B9-548A80C90FD6'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '5969CCF5-98B4-4A1E-A2B9-548A80C90FD6'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '5969CCF5-98B4-4A1E-A2B9-548A80C90FD6'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'R10'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:13f7fd8e-b2b7-4490-9298-dbc11b2ee541
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:c87a3706-84a9-48df-88a4-0980a7f577fa
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:d19b4be5-df9e-4adc-b9f6-100953c12877
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:d426a624-dba5-437d-ad1f-506ebe2ce798
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:ab457881-265b-4eb4-bd70-a4d9b6418b49
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:329b40cf-9da2-4a76-b30b-fc4b5ecab939
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'Q2'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '3AC12F21-9B71-4DFB-846E-BAA5526E99E7'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '3AC12F21-9B71-4DFB-846E-BAA5526E99E7'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '3AC12F21-9B71-4DFB-846E-BAA5526E99E7'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'Q6'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:fd653b15-d5a8-46cf-937b-f46724c9a5fe
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:a373e313-e157-4e76-8a2d-bb7406ca30e7
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:0073ed9b-bfcc-4134-b178-8a7f07f22b8c
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:5a7becc5-c04d-4f53-9826-f1b0a7aa61e2
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:2797c87a-26b7-4878-bf61-f221d774c457
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:f797a8c2-09b1-42a6-b94a-12b6e26ea5c5
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'C5'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '7A82147A-4035-475D-9DEA-AA6F552733E3'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '7A82147A-4035-475D-9DEA-AA6F552733E3'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '7A82147A-4035-475D-9DEA-AA6F552733E3'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'C11'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:ef8cca66-2c2e-4b4a-93e8-05c6981bed87
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:a953c2e6-542a-47b4-b5d4-232703cf0fa6
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:197d307d-03ed-451f-9719-b281b9551529
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:2df7aa6f-894d-4388-8555-d9ce97d31f96
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:acb7e481-b280-4567-9623-1232b87469bd
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:bba0f072-d1cf-46dc-88e1-54b2bb492592
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'C6'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '77F4116B-E9F5-462C-AFD0-37DE4CDCF41E'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '77F4116B-E9F5-462C-AFD0-37DE4CDCF41E'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'C12'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:c7e1f7d4-7f52-4e10-a34d-f6088ac91641
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:87c1de7e-1866-4f9d-ad41-8caf874f8fad
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:cceea73e-bed4-42d6-9865-ba1b8448b759
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:5e476c73-96fd-4b07-968e-65c6dbd45fd5
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:98262ae9-fec1-4cdd-8b76-04141e75b08c
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:047b5b10-87c4-4c51-9900-84371a555d05
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'Q4'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '3AC12F21-9B71-4DFB-846E-BAA5526E99E7'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '3AC12F21-9B71-4DFB-846E-BAA5526E99E7'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '3AC12F21-9B71-4DFB-846E-BAA5526E99E7'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'Q8'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:a990d1c2-c47f-4674-8d85-46df9115ac89
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:06cbc34a-f53f-4b4d-a3c2-8b84e3144a57
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:bd9110ee-7d13-48d5-84ef-47f2354ff1ee
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:81948984-cfb2-4f73-ab21-e673835661b2
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:56494f3d-fdd8-4a9d-ba7d-68511f93267d
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:706bfc6b-b7b2-4921-869f-a29784526345
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'U1'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '617AB18D-C8E6-4D18-9E1D-6146246B03A9'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '617AB18D-C8E6-4D18-9E1D-6146246B03A9'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '617AB18D-C8E6-4D18-9E1D-6146246B03A9'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'U3'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:72ea28a8-3ab9-4dd2-93d9-c227d5cf8eea
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:d66d2645-478a-4e39-ba60-4e5239451817
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:7e8e36d7-a805-49b4-8625-ebd5387b9c5e
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:3b874eb3-8460-4009-81a5-460e383d7fa7
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:6ec09336-19ac-4527-b053-56f77dfc1b6f
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:96d740d9-2cf0-4784-90c6-e0d53bd23627
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'R5'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '39EF6964-E592-4128-B052-4F32E7F01D46'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '39EF6964-E592-4128-B052-4F32E7F01D46'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '39EF6964-E592-4128-B052-4F32E7F01D46'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'R12'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:25c6344f-9766-43aa-9d35-1e5543d9b9f5
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:b7051eb7-c6f6-4224-b62f-793e048dcea7
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:5f8d6eca-70ee-4bfd-9716-08db6ad2959b
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:81bcf27b-d2b4-4ffb-97f9-6fdd7499873e
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:89140806-b151-44a8-980b-e29c667ff376
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:b3a9a5d5-f87b-4462-a131-6652f5d49024
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'D2'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: 'DD23AE59-3F89-40F5-A0DE-B92DB711240E'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'DD23AE59-3F89-40F5-A0DE-B92DB711240E'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'DD23AE59-3F89-40F5-A0DE-B92DB711240E'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'D4'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:7a6c9708-1700-485d-8540-33d991328cfb
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:575aff88-0133-4609-9fb2-753389c6b5b9
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:958216d0-791b-45bc-8329-ff33d11f00a8
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:661f4102-c460-43e6-ab84-d6e54a710842
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:b02af4ec-9d52-4ddc-b2c2-23e73cf6d4ec
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:3dd05d90-afb6-4f15-9e2b-a6fc27e746c0
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'R1'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'R8'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:a2825878-13e6-4855-ac50-17ff57f6251b
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:8dc51f5d-709b-48b1-a5a6-f727d6fc5a1c
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:42f84bed-7d5b-483d-b4e8-8e4afc2e810e
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:22bff68b-57bd-4de1-ad79-0e87bbde8c19
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:9d15b326-84a8-4a3e-9aa5-2f9f86095ef5
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:a17c7bc0-847d-4b92-a9a2-6db87b011d46
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 870:Replicating footprints on sheet ['/ROLL H-Bridge2/']
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'C4'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: 'FFD6DD39-C323-43A0-8E03-5A0726ADD565'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'FFD6DD39-C323-43A0-8E03-5A0726ADD565'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'FFD6DD39-C323-43A0-8E03-5A0726ADD565'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'C22'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:17d35905-ae7b-4ee8-98ad-3144dc8b974b
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:ec7b2c17-ea3a-48e8-9731-5d7a2ac8ce65
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:d561b56a-981d-4f30-815e-24f4351a24e7
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:6771e936-e78b-4402-80f4-64dca2b1dddc
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:b5de53b0-4997-4ac3-ab8d-66b44b916f6d
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:59ddff67-f5a5-4658-ac9e-f852885a6fa8
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'D1'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: 'DD23AE59-3F89-40F5-A0DE-B92DB711240E'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'DD23AE59-3F89-40F5-A0DE-B92DB711240E'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'DD23AE59-3F89-40F5-A0DE-B92DB711240E'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'D7'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:827b664d-200f-40a4-82e1-9a7d3cc53683
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:f8bb9441-c83e-4e30-88c3-565850f7a518
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:c43fa18a-87fa-4176-b19b-a3d880ece7d4
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:83a9b7e4-ad98-413f-8a43-34f9e7f36df8
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:e8348eb2-fc2c-4f41-8071-da385b56598e
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:a9154316-145f-444a-8456-ecf4c8bad104
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'C2'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '7A82147A-4035-475D-9DEA-AA6F552733E3'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '7A82147A-4035-475D-9DEA-AA6F552733E3'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '7A82147A-4035-475D-9DEA-AA6F552733E3'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'C20'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:08c02a99-d620-4c07-a202-eddfef32f211
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:712c3b7a-6fce-49ee-bbbd-5794959e6832
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:13d814af-9e56-48fe-9f41-84ebb2e7504a
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:65b5722a-ec33-46e8-ac02-cd2fd2b361c4
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:85595229-0c40-45a0-a348-4f80b5171f3d
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:a63ce2a5-a0c0-4187-a0d5-7a7fd3200e9f
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'R4'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '19A40AFE-8FD0-4015-A427-00897AE94415'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '19A40AFE-8FD0-4015-A427-00897AE94415'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '19A40AFE-8FD0-4015-A427-00897AE94415'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'R25'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:2411d09b-4c8e-4c7e-8c50-0ebdf729d7e8
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:33e42f9f-36e1-451e-85ad-946d72ee5886
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:e84811a2-4f0a-4a3f-b146-e4e2f642eb3d
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:5cf77495-51e0-41f6-a0d7-307b61d9706c
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:a89477e7-38e7-41ee-a91e-0e70944e5123
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:ca52dea7-9f16-4a60-9155-e947c13189c5
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'R2'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '39EF6964-E592-4128-B052-4F32E7F01D46'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '39EF6964-E592-4128-B052-4F32E7F01D46'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '39EF6964-E592-4128-B052-4F32E7F01D46'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'R23'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:a3e306fb-2a40-4ffc-9b5e-ba157d79b502
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:92a9a345-c446-458d-a3de-357564548762
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:dad5bc8a-ed36-4cca-a803-162aa9a55568
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:4b19c476-3e09-4d51-aaab-5f37530c386b
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:d3099268-1830-4c85-81d9-eeaca4d10170
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:5a4d4d89-3959-48f4-9308-a452ceed029d
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'Q1'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '333D3CC4-DAF9-4906-BBD4-1A07F42B71DA'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '333D3CC4-DAF9-4906-BBD4-1A07F42B71DA'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '333D3CC4-DAF9-4906-BBD4-1A07F42B71DA'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'Q13'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:07349910-5a78-4ddd-87b0-6659d8e09fd4
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:aea83a5b-3f28-4cdb-8a97-fb2fc1a8d0ee
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:f0ab5188-2f7e-421e-9553-cab93dda6c61
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:9256832a-0fca-4cbb-a66e-4a3456b8aaa0
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:3ec76933-e04e-4642-a489-907a9c15ede5
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:aa2098a3-0d08-4c9a-9a5b-3f4306e73666
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'C1'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: 'FFD6DD39-C323-43A0-8E03-5A0726ADD565'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'FFD6DD39-C323-43A0-8E03-5A0726ADD565'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'FFD6DD39-C323-43A0-8E03-5A0726ADD565'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'C19'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:2a4e0467-a1cb-4983-ba95-142703dee863
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:4fe961be-db6f-427e-b38b-810479b26258
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:620fd2ae-fa81-49c6-a709-f0c8a2b1ad46
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:b8edb8fe-319f-4fdb-a744-3980b3b4197f
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:982ee6f0-5894-4926-a49e-251ebe5e0014
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:e0170ad1-a841-47ae-9a56-c7c92b19feb8
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'U2'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '617AB18D-C8E6-4D18-9E1D-6146246B03A9'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '617AB18D-C8E6-4D18-9E1D-6146246B03A9'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '617AB18D-C8E6-4D18-9E1D-6146246B03A9'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'U8'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:f1310936-6903-4648-9513-b693d09c95f2
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:d5a6d0a6-e862-459c-8fca-13b03ce665f3
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:f1ea21ca-f3fc-4f4f-98f2-7c6c23b10704
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:20322ae8-3787-4c80-b380-2789c7c35018
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:e18d8bc0-ddbb-4930-bc2d-31dd53cf7b00
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:b95699cb-260f-4c53-b8b9-e3e469af80f0
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'Q3'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '333D3CC4-DAF9-4906-BBD4-1A07F42B71DA'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '333D3CC4-DAF9-4906-BBD4-1A07F42B71DA'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '333D3CC4-DAF9-4906-BBD4-1A07F42B71DA'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'Q15'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:08dfe33f-dcd6-49b2-9b34-5d80a0ea113c
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:e5fe728c-d9be-4fd9-adc3-d73368f03a91
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:0eff0547-1e4d-4fb4-b878-18633f7ac95a
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:c5354de4-1dc4-4ca4-a17b-c6a50e66442f
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:45052d5a-6421-4ee2-9e7f-e808025b29d1
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:c3d6680c-c319-44d5-ace2-71e00b3f1fd6
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'R7'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '19A40AFE-8FD0-4015-A427-00897AE94415'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '19A40AFE-8FD0-4015-A427-00897AE94415'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '19A40AFE-8FD0-4015-A427-00897AE94415'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'R28'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:63bc18e3-7ee3-4b89-b683-440976af8a89
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:5b0473c8-bf24-4504-88b1-070a79c9c0cb
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:cc553bc8-0937-4ac2-85e7-913807a7ad0e
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:1a2babb9-3a01-48df-b4b5-7e749ea5ee41
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:f8e7d1ec-327f-4775-b6e9-dfb5561e62c6
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:0e501b52-c33b-45e9-9cba-b2965c33b2ce
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'R6'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '5969CCF5-98B4-4A1E-A2B9-548A80C90FD6'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '5969CCF5-98B4-4A1E-A2B9-548A80C90FD6'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '5969CCF5-98B4-4A1E-A2B9-548A80C90FD6'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'R27'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:8adb1b6f-fe22-4423-be4c-2fd821d567e9
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:b1bbed7e-58f1-4a54-9f4f-90a2555572ed
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:cd9a1be6-6e4a-4384-881d-32e12e5d1789
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:87d2d715-7370-4deb-812b-5f81bce96c5c
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:075b71b2-a977-4a6a-8ca5-d19084f991c9
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:0cb8b25f-ec73-485e-a7a2-df5bf2f51d5a
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'R3'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '5969CCF5-98B4-4A1E-A2B9-548A80C90FD6'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '5969CCF5-98B4-4A1E-A2B9-548A80C90FD6'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '5969CCF5-98B4-4A1E-A2B9-548A80C90FD6'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'R24'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:13f7fd8e-b2b7-4490-9298-dbc11b2ee541
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:f541529e-921e-431b-9a67-a564422b6377
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:d19b4be5-df9e-4adc-b9f6-100953c12877
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:29d9d4ae-fb0e-4af0-b1bd-da4e54d2a29f
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:ab457881-265b-4eb4-bd70-a4d9b6418b49
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:efa123d0-b3d5-44f5-9a2e-44c4bfab7b2b
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'Q2'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '3AC12F21-9B71-4DFB-846E-BAA5526E99E7'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '3AC12F21-9B71-4DFB-846E-BAA5526E99E7'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '3AC12F21-9B71-4DFB-846E-BAA5526E99E7'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'Q14'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:fd653b15-d5a8-46cf-937b-f46724c9a5fe
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:98564cbd-50aa-4b9b-9f1f-fa526942731c
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:0073ed9b-bfcc-4134-b178-8a7f07f22b8c
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:19b09316-2b92-47c0-8aab-32b88f0750c1
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:2797c87a-26b7-4878-bf61-f221d774c457
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:1d370c39-d73a-4aeb-8f26-d6e033632ff5
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'C5'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '7A82147A-4035-475D-9DEA-AA6F552733E3'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '7A82147A-4035-475D-9DEA-AA6F552733E3'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '7A82147A-4035-475D-9DEA-AA6F552733E3'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'C23'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:ef8cca66-2c2e-4b4a-93e8-05c6981bed87
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:24535875-2ec6-421e-bbe1-27f36d8aa30e
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:197d307d-03ed-451f-9719-b281b9551529
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:8cbb4f1e-178e-40b2-b607-c6a7dc1ac4e2
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:acb7e481-b280-4567-9623-1232b87469bd
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:cc7a35fa-60df-4952-9f79-f7d288d6bc37
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'C6'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '77F4116B-E9F5-462C-AFD0-37DE4CDCF41E'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '77F4116B-E9F5-462C-AFD0-37DE4CDCF41E'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'C24'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:c7e1f7d4-7f52-4e10-a34d-f6088ac91641
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:b01494b5-8ac1-476e-b9cb-ccbb135fde99
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:cceea73e-bed4-42d6-9865-ba1b8448b759
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:d1a8430e-a58b-4de0-8d94-51cc369f9759
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:98262ae9-fec1-4cdd-8b76-04141e75b08c
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:b9ddcf68-32dc-4252-90be-b858dea073db
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'Q4'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '3AC12F21-9B71-4DFB-846E-BAA5526E99E7'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '3AC12F21-9B71-4DFB-846E-BAA5526E99E7'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '3AC12F21-9B71-4DFB-846E-BAA5526E99E7'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'Q16'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:a990d1c2-c47f-4674-8d85-46df9115ac89
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:df021aea-4edf-4667-b6c0-04ea3eba08c9
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:bd9110ee-7d13-48d5-84ef-47f2354ff1ee
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:efc52b2c-5f32-42f1-a062-7b6a0fd32bae
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:56494f3d-fdd8-4a9d-ba7d-68511f93267d
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:7bc579be-1912-48ff-becd-80f250cb3d20
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'U1'
+11-17 11:57:21 root 345:updating GUI with: 77
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '617AB18D-C8E6-4D18-9E1D-6146246B03A9'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '617AB18D-C8E6-4D18-9E1D-6146246B03A9'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '617AB18D-C8E6-4D18-9E1D-6146246B03A9'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'U7'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:72ea28a8-3ab9-4dd2-93d9-c227d5cf8eea
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:18e9b615-9b4a-4cea-af54-a4f061685e10
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:7e8e36d7-a805-49b4-8625-ebd5387b9c5e
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:9e018929-2250-4f79-8dae-6939181c26a1
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:6ec09336-19ac-4527-b053-56f77dfc1b6f
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:66b7324b-4806-4571-b53f-ded58681f1ec
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'R5'
+11-17 11:57:21 root 345:updating GUI with: 78
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '39EF6964-E592-4128-B052-4F32E7F01D46'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '39EF6964-E592-4128-B052-4F32E7F01D46'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '39EF6964-E592-4128-B052-4F32E7F01D46'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'R26'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:25c6344f-9766-43aa-9d35-1e5543d9b9f5
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:ddbe36e2-b29d-4036-af57-5f121844c144
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:5f8d6eca-70ee-4bfd-9716-08db6ad2959b
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:08d6cd95-b682-43b7-9387-582b4dcdcfa1
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:89140806-b151-44a8-980b-e29c667ff376
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:fbb53c05-01b4-41d3-b8a4-a38ac1aa3738
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'D2'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: 'DD23AE59-3F89-40F5-A0DE-B92DB711240E'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'DD23AE59-3F89-40F5-A0DE-B92DB711240E'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'DD23AE59-3F89-40F5-A0DE-B92DB711240E'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'D8'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:7a6c9708-1700-485d-8540-33d991328cfb
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:7601db86-beeb-4a7e-92f2-8822f7af08c0
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:958216d0-791b-45bc-8329-ff33d11f00a8
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:213e8020-de53-4441-a8c7-b349e5a36b37
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:b02af4ec-9d52-4ddc-b2c2-23e73cf6d4ec
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:08d6d479-9645-4bbe-bd1a-837d6d99e6df
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'R1'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'R22'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:a2825878-13e6-4855-ac50-17ff57f6251b
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:8a03ac01-0531-48b4-9fb7-8d1bb94d95c9
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:42f84bed-7d5b-483d-b4e8-8e4afc2e810e
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:82edfff0-6c50-4b1a-b394-61655bfe67a5
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:9d15b326-84a8-4a3e-9aa5-2f9f86095ef5
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:bae779d6-509c-4443-8455-cfadcbd574f3
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 870:Replicating footprints on sheet ['/YAW H-Bridge3/']
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'C4'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: 'FFD6DD39-C323-43A0-8E03-5A0726ADD565'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'FFD6DD39-C323-43A0-8E03-5A0726ADD565'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'FFD6DD39-C323-43A0-8E03-5A0726ADD565'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'C34'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:17d35905-ae7b-4ee8-98ad-3144dc8b974b
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:1f427c78-511c-4f98-889b-764bcd0ff53a
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:d561b56a-981d-4f30-815e-24f4351a24e7
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:560a129f-6a9e-4e83-835a-3f13e4d421f9
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:b5de53b0-4997-4ac3-ab8d-66b44b916f6d
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:ea294ed9-78f8-413e-8b78-925182241422
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'D1'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: 'DD23AE59-3F89-40F5-A0DE-B92DB711240E'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'DD23AE59-3F89-40F5-A0DE-B92DB711240E'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'DD23AE59-3F89-40F5-A0DE-B92DB711240E'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'D11'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:827b664d-200f-40a4-82e1-9a7d3cc53683
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:3de0f48a-b3de-44b0-827e-e3e0df57a1e1
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:c43fa18a-87fa-4176-b19b-a3d880ece7d4
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:050a1087-15f9-45e4-b83d-4ee23d0d4618
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:e8348eb2-fc2c-4f41-8071-da385b56598e
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:41a49d90-c6d7-49bc-89c3-b26c8a1357ed
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'C2'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '7A82147A-4035-475D-9DEA-AA6F552733E3'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '7A82147A-4035-475D-9DEA-AA6F552733E3'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '7A82147A-4035-475D-9DEA-AA6F552733E3'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'C32'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:08c02a99-d620-4c07-a202-eddfef32f211
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:89309ea8-86e3-4d81-a243-f59cb690e422
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:13d814af-9e56-48fe-9f41-84ebb2e7504a
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:2b078cca-0e83-4d8d-a871-fa36ddb5bfa8
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:85595229-0c40-45a0-a348-4f80b5171f3d
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:109b4d3a-07e0-4319-b283-3a628fe2fcd8
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'R4'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '19A40AFE-8FD0-4015-A427-00897AE94415'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '19A40AFE-8FD0-4015-A427-00897AE94415'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '19A40AFE-8FD0-4015-A427-00897AE94415'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'R39'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:2411d09b-4c8e-4c7e-8c50-0ebdf729d7e8
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:77af2c97-9d2c-40d1-a07e-419940cdb689
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:e84811a2-4f0a-4a3f-b146-e4e2f642eb3d
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:aaf5905f-17c0-4c4c-8250-82cea4c5bbfe
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:a89477e7-38e7-41ee-a91e-0e70944e5123
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:c45cfb8d-466b-4f10-9a7c-525018d63331
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'R2'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '39EF6964-E592-4128-B052-4F32E7F01D46'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '39EF6964-E592-4128-B052-4F32E7F01D46'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '39EF6964-E592-4128-B052-4F32E7F01D46'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'R37'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:a3e306fb-2a40-4ffc-9b5e-ba157d79b502
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:ba9dbfe1-5015-45e7-9534-9eb3bd8d1255
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:dad5bc8a-ed36-4cca-a803-162aa9a55568
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:bead1408-455c-4779-8d0d-11584b639858
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:d3099268-1830-4c85-81d9-eeaca4d10170
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:5512a572-2cfb-4f77-b59f-21dcf34a137e
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'Q1'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '333D3CC4-DAF9-4906-BBD4-1A07F42B71DA'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '333D3CC4-DAF9-4906-BBD4-1A07F42B71DA'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '333D3CC4-DAF9-4906-BBD4-1A07F42B71DA'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'Q21'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:07349910-5a78-4ddd-87b0-6659d8e09fd4
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:549012e0-a73c-42a3-bc01-1918602ced04
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:f0ab5188-2f7e-421e-9553-cab93dda6c61
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:24214013-0d44-4046-8052-a6bafb6ff34e
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:3ec76933-e04e-4642-a489-907a9c15ede5
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:b0a9cca5-2fdc-409f-8773-f1b655177b96
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'C1'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: 'FFD6DD39-C323-43A0-8E03-5A0726ADD565'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'FFD6DD39-C323-43A0-8E03-5A0726ADD565'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'FFD6DD39-C323-43A0-8E03-5A0726ADD565'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'C31'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:2a4e0467-a1cb-4983-ba95-142703dee863
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:cac03e4a-5157-465d-aae4-079010de8c2e
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:620fd2ae-fa81-49c6-a709-f0c8a2b1ad46
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:e778744d-dd50-4c32-84b3-9fcaf169b6e7
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:982ee6f0-5894-4926-a49e-251ebe5e0014
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:bfd4a773-1ba4-4385-aa4d-fd1692b20c2d
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'U2'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '617AB18D-C8E6-4D18-9E1D-6146246B03A9'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '617AB18D-C8E6-4D18-9E1D-6146246B03A9'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '617AB18D-C8E6-4D18-9E1D-6146246B03A9'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'U12'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:f1310936-6903-4648-9513-b693d09c95f2
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:3345bd55-14ba-41da-8726-590059cb33a6
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:f1ea21ca-f3fc-4f4f-98f2-7c6c23b10704
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:7ab7d8bc-4cde-4db2-aa35-a4281ebe63f2
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:e18d8bc0-ddbb-4930-bc2d-31dd53cf7b00
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:7519e87c-a361-44c8-9018-7dd66ea81119
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'Q3'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '333D3CC4-DAF9-4906-BBD4-1A07F42B71DA'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '333D3CC4-DAF9-4906-BBD4-1A07F42B71DA'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '333D3CC4-DAF9-4906-BBD4-1A07F42B71DA'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'Q23'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:08dfe33f-dcd6-49b2-9b34-5d80a0ea113c
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:82d8c1fb-ce0a-41db-b3b8-280f1ecb5a9f
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:0eff0547-1e4d-4fb4-b878-18633f7ac95a
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:d68d17c5-988a-46ac-9a59-2236e08d2b11
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:45052d5a-6421-4ee2-9e7f-e808025b29d1
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:16a33515-d434-46ef-8c28-9bb762e3acb9
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'R7'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '19A40AFE-8FD0-4015-A427-00897AE94415'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '19A40AFE-8FD0-4015-A427-00897AE94415'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '19A40AFE-8FD0-4015-A427-00897AE94415'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'R42'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:63bc18e3-7ee3-4b89-b683-440976af8a89
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:cc328551-61fc-45d0-9b4d-659a453de525
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:cc553bc8-0937-4ac2-85e7-913807a7ad0e
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:c59cfe9d-e842-4429-8f9f-08838fc98f49
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:f8e7d1ec-327f-4775-b6e9-dfb5561e62c6
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:1b90581a-528f-4537-ab22-069f2e1c6b66
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'R6'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '5969CCF5-98B4-4A1E-A2B9-548A80C90FD6'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '5969CCF5-98B4-4A1E-A2B9-548A80C90FD6'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '5969CCF5-98B4-4A1E-A2B9-548A80C90FD6'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'R41'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:8adb1b6f-fe22-4423-be4c-2fd821d567e9
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:addd47ad-a147-47fe-92e3-0c26e2bdd282
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:cd9a1be6-6e4a-4384-881d-32e12e5d1789
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:86eb914c-2a41-44af-ad99-6f6c634bef4a
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:075b71b2-a977-4a6a-8ca5-d19084f991c9
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:6c2f4a55-a84e-471e-87be-e496ec59683b
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'R3'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '5969CCF5-98B4-4A1E-A2B9-548A80C90FD6'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '5969CCF5-98B4-4A1E-A2B9-548A80C90FD6'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '5969CCF5-98B4-4A1E-A2B9-548A80C90FD6'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'R38'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:13f7fd8e-b2b7-4490-9298-dbc11b2ee541
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:025ea011-f18c-4a59-90b6-bbbfde8a1927
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:d19b4be5-df9e-4adc-b9f6-100953c12877
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:c9fc9406-886a-4cc1-8e19-390f89346e2a
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:ab457881-265b-4eb4-bd70-a4d9b6418b49
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:14181cde-dbec-44c3-bd6d-573f6b6ee278
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'Q2'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '3AC12F21-9B71-4DFB-846E-BAA5526E99E7'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '3AC12F21-9B71-4DFB-846E-BAA5526E99E7'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '3AC12F21-9B71-4DFB-846E-BAA5526E99E7'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'Q22'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:fd653b15-d5a8-46cf-937b-f46724c9a5fe
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:4e51553e-d5c9-4002-9210-57b39c8c6461
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:0073ed9b-bfcc-4134-b178-8a7f07f22b8c
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:c3bbc1dd-1b5d-404e-86a5-2dff21098755
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:2797c87a-26b7-4878-bf61-f221d774c457
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:9798d506-e4ae-497a-9ea9-15e8c0dc9fc9
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'C5'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '7A82147A-4035-475D-9DEA-AA6F552733E3'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '7A82147A-4035-475D-9DEA-AA6F552733E3'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '7A82147A-4035-475D-9DEA-AA6F552733E3'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'C35'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:ef8cca66-2c2e-4b4a-93e8-05c6981bed87
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:dbf0bcc4-a2e7-4490-8b35-b7b1165b3dad
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:197d307d-03ed-451f-9719-b281b9551529
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:c31a3230-40ba-437d-84f2-5277ca9b2231
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:acb7e481-b280-4567-9623-1232b87469bd
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:40d060dc-f614-4b67-a529-8f288c2c8479
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'C6'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '77F4116B-E9F5-462C-AFD0-37DE4CDCF41E'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '77F4116B-E9F5-462C-AFD0-37DE4CDCF41E'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'C36'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:c7e1f7d4-7f52-4e10-a34d-f6088ac91641
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:d7c44b69-efc3-42b8-844a-66492bfa5291
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:cceea73e-bed4-42d6-9865-ba1b8448b759
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:0886f5cc-9968-4c4d-b0fa-17ccdc28605a
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:98262ae9-fec1-4cdd-8b76-04141e75b08c
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:ef3313ae-e1b4-4a1c-9f98-a867023cf593
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'Q4'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '3AC12F21-9B71-4DFB-846E-BAA5526E99E7'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '3AC12F21-9B71-4DFB-846E-BAA5526E99E7'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '3AC12F21-9B71-4DFB-846E-BAA5526E99E7'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'Q24'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:a990d1c2-c47f-4674-8d85-46df9115ac89
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:3ae91616-0ea6-4c4e-af68-8766dc85b95e
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:bd9110ee-7d13-48d5-84ef-47f2354ff1ee
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:5f38ec40-9716-470b-9d3b-140a847cd229
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:56494f3d-fdd8-4a9d-ba7d-68511f93267d
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:86dce0fb-0f8c-46ee-9804-ed685a3f66d5
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'U1'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '617AB18D-C8E6-4D18-9E1D-6146246B03A9'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '617AB18D-C8E6-4D18-9E1D-6146246B03A9'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '617AB18D-C8E6-4D18-9E1D-6146246B03A9'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'U11'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:72ea28a8-3ab9-4dd2-93d9-c227d5cf8eea
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:43224177-e648-41e3-8b50-b3ff11923af5
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:7e8e36d7-a805-49b4-8625-ebd5387b9c5e
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:7deac735-87c6-466c-ae1a-e10d4ca21c45
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:6ec09336-19ac-4527-b053-56f77dfc1b6f
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:f24994f7-bae8-4594-997e-61c646762586
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'R5'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '39EF6964-E592-4128-B052-4F32E7F01D46'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '39EF6964-E592-4128-B052-4F32E7F01D46'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '39EF6964-E592-4128-B052-4F32E7F01D46'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'R40'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:25c6344f-9766-43aa-9d35-1e5543d9b9f5
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:ece460fe-d34d-49cd-a88d-24ea6a4f1264
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:5f8d6eca-70ee-4bfd-9716-08db6ad2959b
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:17eac562-c6c2-4b9f-af3d-5688a2f7541b
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:89140806-b151-44a8-980b-e29c667ff376
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:5289ec4d-4e2d-4fb7-9ff7-1318c72847a2
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'D2'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: 'DD23AE59-3F89-40F5-A0DE-B92DB711240E'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'DD23AE59-3F89-40F5-A0DE-B92DB711240E'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'DD23AE59-3F89-40F5-A0DE-B92DB711240E'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'D12'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:7a6c9708-1700-485d-8540-33d991328cfb
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:55e59bdc-63dd-41ae-a55e-8a75df236d32
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:958216d0-791b-45bc-8329-ff33d11f00a8
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:27b8c758-dbb7-4eab-8220-205ed4c494e2
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:b02af4ec-9d52-4ddc-b2c2-23e73cf6d4ec
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:14e4c9da-3adf-4bb1-8028-f0f5215036c0
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'R1'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'R36'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:a2825878-13e6-4855-ac50-17ff57f6251b
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:52e78373-5d5c-47bb-87cc-36995401d623
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:42f84bed-7d5b-483d-b4e8-8e4afc2e810e
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:3fe96a17-8b1c-4f0d-9597-55cd9f701f34
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:9d15b326-84a8-4a3e-9aa5-2f9f86095ef5
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:1d0f5cde-5fb3-4fa3-a3ae-46d459f55862
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 328:Removing tracks and zones, after footprint placement
+11-17 11:57:21 root 340:updating GUI message: 'Removing zones and tracks'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1282:Remove bounding box top:79736952, bottom:103310000, Left:237195000, Right:255345000
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1282:Remove bounding box top:103736952, bottom:127310000, Left:215195000, Right:233345000
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1282:Remove bounding box top:79736952, bottom:103310000, Left:215195000, Right:233345000
+11-17 11:57:21 root 345:updating GUI with: 60
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1282:Remove bounding box top:103736952, bottom:127310000, Left:193195000, Right:211345000
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1282:Remove bounding box top:103736952, bottom:127310000, Left:237195000, Right:255345000
+11-17 11:57:21 root 340:updating GUI message: 'Replicating tracks'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1014:Replicating tracks
+11-17 11:57:21 root 345:updating GUI with: 0
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1020:Replicating tracks on sheet ['/-ROLL H-Bridge1/']
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['/-ROLL H-Bridge1/'] :[('/-PITCH H-Bridge/OUT2', '/-ROLL H-Bridge1/OUT2'), ('Net-(Q3-PadG)', 'Net-(Q11-PadG)'), ('Net-(D2-A)', 'Net-(D6-A)'), ('Vdrive', 'Vdrive'), ('GND', 'GND'), ('Net-(Q2-PadG)', 'Net-(Q10-PadG)'), ('Net-(D1-K)', 'Net-(D5-K)'), ('Net-(U2-HO)', 'Net-(U6-HO)'), ('Net-(D1-A)', 'Net-(D5-A)'), ('Net-(Q4-PadG)', 'Net-(Q12-PadG)'), ('+12V', '+12V'), ('Net-(Q1-PadG)', 'Net-(Q9-PadG)'), ('/-PITCH H-Bridge/IN1', '/-ROLL H-Bridge1/IN1'), ('Net-(U2-LO)', 'Net-(U6-LO)'), ('/-PITCH H-Bridge/OUT1', '/-ROLL H-Bridge1/OUT1'), ('Net-(U1-HO)', 'Net-(U5-HO)'), ('/-PITCH H-Bridge/IN2', '/-ROLL H-Bridge1/IN2'), ('Net-(U1-LO)', 'Net-(U5-LO)'), ('/-PITCH H-Bridge/~{SD}', '/-ROLL H-Bridge1/~{SD}'), ('Net-(D2-K)', 'Net-(D6-K)')]
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1020:Replicating tracks on sheet ['/-YAW H-Bridge2/']
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['/-YAW H-Bridge2/'] :[('Net-(D2-A)', 'Net-(D10-A)'), ('Vdrive', 'Vdrive'), ('GND', 'GND'), ('Net-(Q3-PadG)', 'Net-(Q19-PadG)'), ('Net-(Q4-PadG)', 'Net-(Q20-PadG)'), ('Net-(U2-LO)', 'Net-(U10-LO)'), ('Net-(D2-K)', 'Net-(D10-K)'), ('Net-(U1-LO)', 'Net-(U9-LO)'), ('/-PITCH H-Bridge/IN1', '/-YAW H-Bridge2/IN1'), ('/-PITCH H-Bridge/OUT1', '/-YAW H-Bridge2/OUT1'), ('Net-(U2-HO)', 'Net-(U10-HO)'), ('Net-(Q1-PadG)', 'Net-(Q17-PadG)'), ('/-PITCH H-Bridge/OUT2', '/-YAW H-Bridge2/OUT2'), ('+12V', '+12V'), ('Net-(D1-K)', 'Net-(D9-K)'), ('Net-(D1-A)', 'Net-(D9-A)'), ('Net-(Q2-PadG)', 'Net-(Q18-PadG)'), ('/-PITCH H-Bridge/IN2', '/-YAW H-Bridge2/IN2'), ('Net-(U1-HO)', 'Net-(U9-HO)'), ('/-PITCH H-Bridge/~{SD}', '/-YAW H-Bridge2/~{SD}')]
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1020:Replicating tracks on sheet ['/PITCH H-Bridge1/']
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['/PITCH H-Bridge1/'] :[('Net-(Q4-PadG)', 'Net-(Q8-PadG)'), ('/-PITCH H-Bridge/IN1', '/PITCH H-Bridge1/IN1'), ('Net-(D1-K)', 'Net-(D3-K)'), ('Net-(U1-HO)', 'Net-(U3-HO)'), ('Vdrive', 'Vdrive'), ('GND', 'GND'), ('Net-(Q1-PadG)', 'Net-(Q5-PadG)'), ('Net-(U2-HO)', 'Net-(U4-HO)'), ('/-PITCH H-Bridge/OUT1', '/PITCH H-Bridge1/OUT1'), ('Net-(U1-LO)', 'Net-(U3-LO)'), ('Net-(D1-A)', 'Net-(D3-A)'), ('Net-(U2-LO)', 'Net-(U4-LO)'), ('/-PITCH H-Bridge/OUT2', '/PITCH H-Bridge1/OUT2'), ('+12V', '+12V'), ('Net-(D2-A)', 'Net-(D4-A)'), ('/-PITCH H-Bridge/~{SD}', '/PITCH H-Bridge1/~{SD}'), ('Net-(Q3-PadG)', 'Net-(Q7-PadG)'), ('Net-(D2-K)', 'Net-(D4-K)'), ('/-PITCH H-Bridge/IN2', '/PITCH H-Bridge1/IN2'), ('Net-(Q2-PadG)', 'Net-(Q6-PadG)')]
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1020:Replicating tracks on sheet ['/ROLL H-Bridge2/']
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['/ROLL H-Bridge2/'] :[('Net-(U2-HO)', 'Net-(U8-HO)'), ('/-PITCH H-Bridge/IN2', '/ROLL H-Bridge2/IN2'), ('Net-(U2-LO)', 'Net-(U8-LO)'), ('/-PITCH H-Bridge/~{SD}', '/ROLL H-Bridge2/~{SD}'), ('Vdrive', 'Vdrive'), ('GND', 'GND'), ('Net-(D2-A)', 'Net-(D8-A)'), ('/-PITCH H-Bridge/IN1', '/ROLL H-Bridge2/IN1'), ('Net-(D2-K)', 'Net-(D8-K)'), ('Net-(U1-LO)', 'Net-(U7-LO)'), ('Net-(Q1-PadG)', 'Net-(Q13-PadG)'), ('Net-(Q3-PadG)', 'Net-(Q15-PadG)'), ('Net-(Q2-PadG)', 'Net-(Q14-PadG)'), ('/-PITCH H-Bridge/OUT2', '/ROLL H-Bridge2/OUT2'), ('+12V', '+12V'), ('/-PITCH H-Bridge/OUT1', '/ROLL H-Bridge2/OUT1'), ('Net-(U1-HO)', 'Net-(U7-HO)'), ('Net-(D1-A)', 'Net-(D7-A)'), ('Net-(Q4-PadG)', 'Net-(Q16-PadG)'), ('Net-(D1-K)', 'Net-(D7-K)')]
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1020:Replicating tracks on sheet ['/YAW H-Bridge3/']
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['/YAW H-Bridge3/'] :[('Net-(Q3-PadG)', 'Net-(Q23-PadG)'), ('Vdrive', 'Vdrive'), ('Net-(Q4-PadG)', 'Net-(Q24-PadG)'), ('Net-(D1-K)', 'Net-(D11-K)'), ('GND', 'GND'), ('Net-(D2-A)', 'Net-(D12-A)'), ('Net-(Q1-PadG)', 'Net-(Q21-PadG)'), ('/-PITCH H-Bridge/OUT1', '/YAW H-Bridge3/OUT1'), ('Net-(D2-K)', 'Net-(D12-K)'), ('Net-(U2-HO)', 'Net-(U12-HO)'), ('Net-(Q2-PadG)', 'Net-(Q22-PadG)'), ('Net-(U1-HO)', 'Net-(U11-HO)'), ('/-PITCH H-Bridge/IN1', '/YAW H-Bridge3/IN1'), ('+12V', '+12V'), ('Net-(U2-LO)', 'Net-(U12-LO)'), ('/-PITCH H-Bridge/OUT2', '/YAW H-Bridge3/OUT2'), ('/-PITCH H-Bridge/IN2', '/YAW H-Bridge3/IN2'), ('Net-(D1-A)', 'Net-(D11-A)'), ('/-PITCH H-Bridge/~{SD}', '/YAW H-Bridge3/~{SD}'), ('Net-(U1-LO)', 'Net-(U11-LO)')]
+11-17 11:57:21 root 345:updating GUI with: 80
+11-17 11:57:21 root 340:updating GUI message: 'Replicating zones'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1084:Replicating zones
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1091:Replicating zones on sheet ['/-ROLL H-Bridge1/']
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['/-ROLL H-Bridge1/'] :[('/-PITCH H-Bridge/OUT2', '/-ROLL H-Bridge1/OUT2'), ('Net-(Q3-PadG)', 'Net-(Q11-PadG)'), ('Net-(D2-A)', 'Net-(D6-A)'), ('Vdrive', 'Vdrive'), ('GND', 'GND'), ('Net-(Q2-PadG)', 'Net-(Q10-PadG)'), ('Net-(D1-K)', 'Net-(D5-K)'), ('Net-(U2-HO)', 'Net-(U6-HO)'), ('Net-(D1-A)', 'Net-(D5-A)'), ('Net-(Q4-PadG)', 'Net-(Q12-PadG)'), ('+12V', '+12V'), ('Net-(Q1-PadG)', 'Net-(Q9-PadG)'), ('/-PITCH H-Bridge/IN1', '/-ROLL H-Bridge1/IN1'), ('Net-(U2-LO)', 'Net-(U6-LO)'), ('/-PITCH H-Bridge/OUT1', '/-ROLL H-Bridge1/OUT1'), ('Net-(U1-HO)', 'Net-(U5-HO)'), ('/-PITCH H-Bridge/IN2', '/-ROLL H-Bridge1/IN2'), ('Net-(U1-LO)', 'Net-(U5-LO)'), ('/-PITCH H-Bridge/~{SD}', '/-ROLL H-Bridge1/~{SD}'), ('Net-(D2-K)', 'Net-(D6-K)')]
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1091:Replicating zones on sheet ['/-YAW H-Bridge2/']
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['/-YAW H-Bridge2/'] :[('Net-(D2-A)', 'Net-(D10-A)'), ('Vdrive', 'Vdrive'), ('GND', 'GND'), ('Net-(Q3-PadG)', 'Net-(Q19-PadG)'), ('Net-(Q4-PadG)', 'Net-(Q20-PadG)'), ('Net-(U2-LO)', 'Net-(U10-LO)'), ('Net-(D2-K)', 'Net-(D10-K)'), ('Net-(U1-LO)', 'Net-(U9-LO)'), ('/-PITCH H-Bridge/IN1', '/-YAW H-Bridge2/IN1'), ('/-PITCH H-Bridge/OUT1', '/-YAW H-Bridge2/OUT1'), ('Net-(U2-HO)', 'Net-(U10-HO)'), ('Net-(Q1-PadG)', 'Net-(Q17-PadG)'), ('/-PITCH H-Bridge/OUT2', '/-YAW H-Bridge2/OUT2'), ('+12V', '+12V'), ('Net-(D1-K)', 'Net-(D9-K)'), ('Net-(D1-A)', 'Net-(D9-A)'), ('Net-(Q2-PadG)', 'Net-(Q18-PadG)'), ('/-PITCH H-Bridge/IN2', '/-YAW H-Bridge2/IN2'), ('Net-(U1-HO)', 'Net-(U9-HO)'), ('/-PITCH H-Bridge/~{SD}', '/-YAW H-Bridge2/~{SD}')]
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1091:Replicating zones on sheet ['/PITCH H-Bridge1/']
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['/PITCH H-Bridge1/'] :[('Net-(Q4-PadG)', 'Net-(Q8-PadG)'), ('/-PITCH H-Bridge/IN1', '/PITCH H-Bridge1/IN1'), ('Net-(D1-K)', 'Net-(D3-K)'), ('Net-(U1-HO)', 'Net-(U3-HO)'), ('Vdrive', 'Vdrive'), ('GND', 'GND'), ('Net-(Q1-PadG)', 'Net-(Q5-PadG)'), ('Net-(U2-HO)', 'Net-(U4-HO)'), ('/-PITCH H-Bridge/OUT1', '/PITCH H-Bridge1/OUT1'), ('Net-(U1-LO)', 'Net-(U3-LO)'), ('Net-(D1-A)', 'Net-(D3-A)'), ('Net-(U2-LO)', 'Net-(U4-LO)'), ('/-PITCH H-Bridge/OUT2', '/PITCH H-Bridge1/OUT2'), ('+12V', '+12V'), ('Net-(D2-A)', 'Net-(D4-A)'), ('/-PITCH H-Bridge/~{SD}', '/PITCH H-Bridge1/~{SD}'), ('Net-(Q3-PadG)', 'Net-(Q7-PadG)'), ('Net-(D2-K)', 'Net-(D4-K)'), ('/-PITCH H-Bridge/IN2', '/PITCH H-Bridge1/IN2'), ('Net-(Q2-PadG)', 'Net-(Q6-PadG)')]
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1091:Replicating zones on sheet ['/ROLL H-Bridge2/']
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['/ROLL H-Bridge2/'] :[('Net-(U2-HO)', 'Net-(U8-HO)'), ('/-PITCH H-Bridge/IN2', '/ROLL H-Bridge2/IN2'), ('Net-(U2-LO)', 'Net-(U8-LO)'), ('/-PITCH H-Bridge/~{SD}', '/ROLL H-Bridge2/~{SD}'), ('Vdrive', 'Vdrive'), ('GND', 'GND'), ('Net-(D2-A)', 'Net-(D8-A)'), ('/-PITCH H-Bridge/IN1', '/ROLL H-Bridge2/IN1'), ('Net-(D2-K)', 'Net-(D8-K)'), ('Net-(U1-LO)', 'Net-(U7-LO)'), ('Net-(Q1-PadG)', 'Net-(Q13-PadG)'), ('Net-(Q3-PadG)', 'Net-(Q15-PadG)'), ('Net-(Q2-PadG)', 'Net-(Q14-PadG)'), ('/-PITCH H-Bridge/OUT2', '/ROLL H-Bridge2/OUT2'), ('+12V', '+12V'), ('/-PITCH H-Bridge/OUT1', '/ROLL H-Bridge2/OUT1'), ('Net-(U1-HO)', 'Net-(U7-HO)'), ('Net-(D1-A)', 'Net-(D7-A)'), ('Net-(Q4-PadG)', 'Net-(Q16-PadG)'), ('Net-(D1-K)', 'Net-(D7-K)')]
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1091:Replicating zones on sheet ['/YAW H-Bridge3/']
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['/YAW H-Bridge3/'] :[('Net-(Q3-PadG)', 'Net-(Q23-PadG)'), ('Vdrive', 'Vdrive'), ('Net-(Q4-PadG)', 'Net-(Q24-PadG)'), ('Net-(D1-K)', 'Net-(D11-K)'), ('GND', 'GND'), ('Net-(D2-A)', 'Net-(D12-A)'), ('Net-(Q1-PadG)', 'Net-(Q21-PadG)'), ('/-PITCH H-Bridge/OUT1', '/YAW H-Bridge3/OUT1'), ('Net-(D2-K)', 'Net-(D12-K)'), ('Net-(U2-HO)', 'Net-(U12-HO)'), ('Net-(Q2-PadG)', 'Net-(Q22-PadG)'), ('Net-(U1-HO)', 'Net-(U11-HO)'), ('/-PITCH H-Bridge/IN1', '/YAW H-Bridge3/IN1'), ('+12V', '+12V'), ('Net-(U2-LO)', 'Net-(U12-LO)'), ('/-PITCH H-Bridge/OUT2', '/YAW H-Bridge3/OUT2'), ('/-PITCH H-Bridge/IN2', '/YAW H-Bridge3/IN2'), ('Net-(D1-A)', 'Net-(D11-A)'), ('/-PITCH H-Bridge/~{SD}', '/YAW H-Bridge3/~{SD}'), ('Net-(U1-LO)', 'Net-(U11-LO)')]
+11-17 11:57:21 root 340:updating GUI message: 'Replicating text'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1173:Replicating text
+11-17 11:57:21 root 345:updating GUI with: 0
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1180:Replicating text on sheet ['/-ROLL H-Bridge1/']
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1180:Replicating text on sheet ['/-YAW H-Bridge2/']
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1180:Replicating text on sheet ['/PITCH H-Bridge1/']
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1180:Replicating text on sheet ['/ROLL H-Bridge2/']
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1180:Replicating text on sheet ['/YAW H-Bridge3/']
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 root 340:updating GUI message: 'Replicating drawings'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1224:Replicating drawings
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1230:Replicating drawings on sheet ['/-ROLL H-Bridge1/']
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1230:Replicating drawings on sheet ['/-YAW H-Bridge2/']
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1230:Replicating drawings on sheet ['/PITCH H-Bridge1/']
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1230:Replicating drawings on sheet ['/ROLL H-Bridge2/']
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1230:Replicating drawings on sheet ['/YAW H-Bridge3/']
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '6DDCA034-9CEC-4E75-83AF-DE629116D256'
+11-17 11:57:22 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 264:Replication complete

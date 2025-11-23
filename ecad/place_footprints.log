@@ -1,0 +1,33 @@
+11-17 11:57:05 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 674:Plugin executed on: 'linux'
+11-17 11:57:05 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 675:Plugin executed with python version: '3.13.7 (main, Aug 15 2025, 12:34:02) [GCC 15.2.1 20250813]'
+11-17 11:57:05 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 676:KiCad build version: 9.0.6
+11-17 11:57:05 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 677:Plugin version: 4.0.1
+11-17 11:57:05 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 678:Frame repr: <wx._core.Frame object at 0x7f7654086a80>
+11-17 11:57:05 com_github_MitjaNemec_PlaceFootprints.place_footprints 121:getting a list of all footprints on board
+11-17 11:57:05 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 717:Reference footprint='R1'
+11-17 11:57:06 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 94:By Sheet GUI initialized
+11-17 11:57:06 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 103:Ref fp:Footprint(ref='R1', fp=<pcbnew.FOOTPRINT; proxy of <Swig Object of type 'FOOTPRINT *' at 0x7f767067f210> >, fp_id='6DDCA034-9CEC-4E75-83AF-DE629116D256', sheet_id=['/-PITCH H-Bridge/'], filename=['h-bridge.kicad_sch'])
+11-17 11:57:06 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 104:Levels:['h-bridge.kicad_sch']
+11-17 11:57:06 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 106:Selecting: 1
+11-17 11:57:06 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 110:Should invoke level_changed()
+11-17 11:57:06 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 288:Level_changed() invoked
+11-17 11:57:06 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 291:self.ref_fp.sheet_id[index] = '/-PITCH H-Bridge/'
+11-17 11:57:06 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 292:self.ref_fp.sheet_id = ['/-PITCH H-Bridge/']
+11-17 11:57:06 com_github_MitjaNemec_PlaceFootprints.place_footprints 284:constructing a list of sheets suitable for replication on level:'/-PITCH H-Bridge/', file:'h-bridge.kicad_sch'
+11-17 11:57:06 com_github_MitjaNemec_PlaceFootprints.place_footprints 308:suitable sheets are:[['/YAW H-Bridge3/'], ['/-YAW H-Bridge2/'], ['/ROLL H-Bridge2/'], ['/-ROLL H-Bridge1/'], ['/PITCH H-Bridge1/']]
+11-17 11:57:06 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 306:self.list_sheetsChoices: [['/YAW H-Bridge3/'], ['/-YAW H-Bridge2/'], ['/ROLL H-Bridge2/'], ['/-ROLL H-Bridge1/'], ['/PITCH H-Bridge1/']]
+11-17 11:57:06 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/PITCH H-Bridge1/']
+11-17 11:57:06 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/YAW H-Bridge3/']
+11-17 11:57:06 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/-ROLL H-Bridge1/']
+11-17 11:57:06 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/ROLL H-Bridge2/']
+11-17 11:57:06 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/-YAW H-Bridge2/']
+11-17 11:57:06 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 309:fp.sheet_id: ['/-PITCH H-Bridge/']
+11-17 11:57:06 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 314:self.ref_list: ['R8', 'R36', 'R15', 'R22', 'R29']
+11-17 11:57:10 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 195:Saving config sheet
+11-17 11:57:10 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 220:Preparing config for sheet matrix
+11-17 11:57:10 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 227:Saving config file
+11-17 11:57:10 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 229:Saved the config file
+11-17 11:57:10 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 746:Sheets selected: [['/YAW H-Bridge3/'], ['/-YAW H-Bridge2/'], ['/ROLL H-Bridge2/'], ['/-ROLL H-Bridge1/'], ['/PITCH H-Bridge1/']]
+11-17 11:57:10 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 755:Footprints to place: ['R1', 'R36', 'R29', 'R22', 'R15', 'R8']
+11-17 11:57:10 com_github_MitjaNemec_PlaceFootprints.place_footprints 427:Starting placing with matrix layout
+11-17 11:57:10 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 828:Placing complete
